@@ -34,6 +34,5 @@
 #### Controlled Vocabularies
 
 #### Contextual Properties
-* 
+*
 #### Model created by
-Who wrote this entity model.
