@@ -5,8 +5,6 @@
 
 #### Model last update date
 
-### Name
-
 ### Theme
 *
 ### Unique Identifiers
