@@ -18,6 +18,7 @@ The date a record stopped being applicable to the list. For example if the list 
 
 ### Synonyms
 *   close-date
+
 ### Definition Adopted by
 FSA Data Team
 ### Definition source
