@@ -8,4 +8,7 @@ please see the below files for instructions on how to:
 ##### [Update an entity model](/UpdatingAnExistingModel.md)
 ##### [Retire an entity model](/RetireAnExistingModel.md)
 
+A list of planned entity models that have not yet been started can be found here:
+##### [Planned entity models](/PlannedEntityModels.md)
+
 Pull requests and issues from both inside and outside of the FSA are welcomed.
