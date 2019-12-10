@@ -1,4 +1,4 @@
-# Enterprise Data Model Shellfish
+# Enterprise Data Model Microbiology
 ### Model creation date
 2019-12-09
 ### Model last update date
