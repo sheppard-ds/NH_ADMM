@@ -1,45 +1,51 @@
-# Enterprise Data Model Biotoxins
-### Model creation date
-2019-12-09
-### Model last update date
-2019-12-10
-### Name
-Biotoxin
+---
+title: "Enrolment"
+date: 2020-01-07
+categories:
+    - Enrolment
+tags:
+    - Enrolment  
+    - Competent Authority
+header:
+  image: "/images/shellfish/lbv.jfif"
+excerpt: "Enrolement is a FSA record of a generalisation of Approval and Registration which covers records of the enrolment of establishments managed by competent authorities under some business responsibilities."
+mathjax: "false"
+---
+
+
 ### Theme
 what are the key themes to this entity.
 ### Unique Identifiers
 What are the unique identifiers and is there a system for their creation/ generation
 ### Definition
-Marine biotoxins are poisonous substances which can accumulate in the tissues of live bivalve molluscs. This can be as a result of feeding on biotoxin producing phytoplankton.
+Enrolement is a FSA record of a generalisation of Approval and Registration which covers records of the enrolment of establishments managed by competent authorities under some business responsibilities.
 
-There are currently three groups of regulated biotoxins for shellfish which can cause
-*   paralytic shellfish poisoning (PSP)
-*   amnesic shellfish poisoning (ASP)
-*   diarretic shellfish poisoning (DSP) caused by lipophilic toxins
+= What has been supplied through the enrolment process.
+
+Record from the FHRS database
+			APMS
+			Wine
+			FeBO spreadsheet
+
 
 ### What it is not
-*   phytoplankton results
-*   Water Results
-*   Microbiological results
+
 
 ### Synonyms
-*   paralytic shellfish poisoning (PSP)
-*   amnesic shellfish poisoning (ASP)
-*   diarretic shellfish poisoning (DSP) caused by lipophilic toxins
+
 
 ### Definition Adopted by
 Food Standards Agency
 ### Definition source
-[Biotoxin monitoring](https://www.food.gov.uk/business-guidance/biotoxin-and-phytoplankton-monitoring)
+
 ### Adoptee Information
-[Biotoxin monitoring](https://www.food.gov.uk/business-guidance/biotoxin-and-phytoplankton-monitoring)
+
 ### Owner
 Food Standards Agency
 ### Source
-[Biotoxin monitoring](https://www.food.gov.uk/business-guidance/biotoxin-and-phytoplankton-monitoring)
+
 ### Reference data
-[Biotoxin Official Control Sampling Schedule](https://data.food.gov.uk/catalog/datasets/c5bd4c38-c016-4ec4-88ed-03a86518f597)
-[Biotoxin Results for England and Wales](https://data.food.gov.uk/catalog/datasets/6039587b-4eed-4823-9d0c-5a2acff24747)
+
 ### Key Properties
 The properties that would be shared across all implementations of this entity because they are fundamental to it. These can have a little more detail, and where possible should link out to data patterns in our data pattern library.
 #### Controlled Vocabularies
