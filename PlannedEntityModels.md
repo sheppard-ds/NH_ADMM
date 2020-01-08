@@ -2,17 +2,17 @@
 
 This document lists Entity Models that need to be created but have not been started yet
 
-|Entity Model Name|Source|
-|---|---|
-|Establishment |Food Buisness Operators dataset|
-|Premises |unified view|
-|operators |unified view|
-|enrollments |unified view|
+|Entity Model Name|Source|Priority|
+|---|---|---|
+|Establishment |Food Buisness Operators dataset|yes|
+|Premises |unified view|yes part of establishment|
+|operators |unified view|yes part of establishment|
+|enrollments |unified view|yes|
 |operator name |unified view|
 |enrolment status |unified view|
 |trading name |unified view|
 |operating name |unified view|
-|competent authorities |unified view|
+|competent authorities |unified view|yes|
 |responsibility |unified view|
 |inspections |unified view|
 |rating |unified view|
