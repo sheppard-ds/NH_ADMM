@@ -1,12 +1,14 @@
 # Enterprise Data Model
 ### Name
+Local Authority
 
 #### Model creation date
 
 #### Model last update date
 
 ### Theme
-*
+*   
+
 ### Unique Identifiers
 
 ### Definition
