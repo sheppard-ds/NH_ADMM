@@ -1,31 +1,28 @@
 ---
-title: "" # title of document put in "Title".  This becomes the "Name"
-date: 2019-12-05 # date last updated in YYYY-MM-DD. This will take the place of the "date modified"
-categories: # list below each on a separate line with the prefix of  - category
-    - category
-tags: # list below each on a separate line with the prefix of  - tag
-    - tag
+title: "Competent Authority"
+date: 2020-01-09
+categories:
+    - Competent Authority
+tags:
+    - Competent Authority
+    - Local Authority
+    - Port Health Authority
+    - Primary Authority
     -   
 header:
-  image: "" # put in path to header image file "/images/shellfish/lbv.jfif"
-excerpt: "" #synopsis of what the enterprise data model is, please type within "".
-mathjax: "false" # change to true if you are going to include formulas
+  image: ""
+excerpt: "A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority."
+mathjax: "false"
 ---
 
-# Enterprise Data Model
-### Name
-Local Authority
-
-#### Model creation date
-
-#### Model last update date
-
-### Theme
-*   
-
-### Unique Identifiers
-
 ### Definition
+A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority.
+
+In broad terms, a Competent Authority is a body which regulates specific activities related to service provision, or which is responsible for authorisations and/or other formalities (registers, licences, permits, notifications), with which a business must comply in order to provide a service in scope of the Regulations.
+
+Competent Authorities deliver food and Feed Safety official controls.  The FSA is the Central Competent Authority responsible for oversight and assurance that the food and feed regulatory system is effective.  For example, the FSA works with other Competent Authorities to ensure the Food Health Rating Scheme is delivered as it should be.
+
+### Key Properties
 
 ### What it is not
 
