@@ -50,7 +50,7 @@ The key properties that define what an establishment is are its operator and pre
 
 #### Contextual Properties
 The key properties of an establishment are the premises in question and its operator:
-*   [Premises](http://www.google.com)
+*   [Premises](/model/draft/Premises.md)
 *   [Operator](http://www.google.com)
 #### Model created by
 FSA Data Team
