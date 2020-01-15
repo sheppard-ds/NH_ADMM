@@ -48,7 +48,7 @@ We use end date to signify the end of an event or status. When used as a field n
 
 Like start date, your service can present the field by it's accepted domain name if that term is canonical.
 
-#### Recording point in time data effectively using start and end dates
+### Recording point in time data effectively using start and end dates
 
 It is best practice to signify changes in status or similar using only start date and end date, with a new row for each material change. For example, we moved offices from Aviation House to Clive House in January 2018, which should be recorded in a service like this;
 
