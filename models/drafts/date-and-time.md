@@ -20,7 +20,7 @@ For example, 14 January 2020 is `2020-01-14`.
 
 When we need to record a time as well as a date, we should always record the coordinated universal time (UTC). This might be different from the local time, including Greenwich Mean Time or British Summer Time.
 
-The format for recording date and time is `<date>T<time>Z`, where `<date>` is formatted in the `YYYY-MM-DD` format and `<time>` is formatted as `hh:mm:ss` or `hh:mm:ss.sss` where fractions of second are required.
+The format for recording date and time is `<date>T<time>Z`, where `<date>` is formatted as `YYYY-MM-DD` and `<time>` is formatted as `hh:mm:ss` or `hh:mm:ss.sss` where fractions of second are required.
 
 The separating `T` character and suffix `Z` character are required in all cases where time and date are recorded.
 
@@ -43,3 +43,24 @@ At the FSA, we use start date. When used as a field name it should be recorded a
 Your service can and should present the field by it's accepted domain name if that term is so well-established as to be canonical or it is that way in legislation or defined that way in policy, but field conventions need to remain consistent across services.
 
 ## End date
+
+We use end date to signify the end of an event or status. When used as a field name it should be recorded as `end-date`, other names for this field are unacceptable.
+
+Like start date, your service can present the field by it's accepted domain name if that term is canonical.
+
+#### Recording point in time data effectively using start and end dates
+
+It is best practice to signify changes in status or similar using only start date and end date, with a new row for each material change. For example, we moved offices from Aviation House to Clive House in January 2018, which should be recorded in a service like this;
+
+ organisation | office | start-date | end-date
+--------------|--------|------------|---------
+FSA|Aviation House|2010-04-01|2017-12-31
+FSA|Clive House|2018-01-01|
+
+This format means that current status and point in time reporting are supported easily by using the correct querying technique.
+
+## Change date
+
+The third type of date recording is change date. When used as a field name it should be recorded as `change-date`.
+
+Change date is used when
