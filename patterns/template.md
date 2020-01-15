@@ -12,12 +12,12 @@ excerpt: "" #synopsis of what the enterprise data model is, please type within "
 mathjax: "false" # change to true if you are going to include formulas
 ---
 
-# Enterprise Data Model
+# Patterns Template
 ### Name
 
-#### Model creation date
+#### Start date
 
-#### Model last update date
+#### Change date
 
 ### Theme
 *
