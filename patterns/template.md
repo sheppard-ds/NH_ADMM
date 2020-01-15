@@ -1,5 +1,5 @@
 ---
-title: "" # title of document put in "Title".  This becomes the "Name"
+title: "Patterns Template" # title of document put in "Title".  This becomes the "Name"
 date: 2019-12-05 # date last updated in YYYY-MM-DD. This will take the place of the "date modified"
 categories: # list below each on a separate line with the prefix of  - category
     - category
@@ -12,7 +12,6 @@ excerpt: "" #synopsis of what the enterprise data model is, please type within "
 mathjax: "false" # change to true if you are going to include formulas
 ---
 
-# Patterns Template
 ### Name
 
 #### Start date
