@@ -35,7 +35,7 @@ Start and End dates would be recorded on the registry entry and would be used to
 This Enterprise Date Model is not intended to provide a total description of the responsibilities of a Competent Authority
 
 ## Reference data
-link to [Competent Authority register] (https://data.food.gov.uk/codes/reference-number/_authority)
+link to [Competent Authority register](https://data.food.gov.uk/codes/reference-number/_authority)
 
 ## Further Information
 
