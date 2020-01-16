@@ -33,5 +33,7 @@ The properties that would be shared across all implementations of this entity be
 This is always recorded in a certain way (i.e. Yes, No, Maybe) for a big Vocabulary you may want to link out or for small Vocabularies you may want to list them here
 #### Contextual Properties
 The properties that are most common in specific implementations of the entity, might be best to link out to subclasses if the relationship is that strong i.e. Establishment > Approved Establishment
+#### Further Reading
+Any documentation that would be helpful for our users to see
 #### Model created by
 Who wrote this entity model.

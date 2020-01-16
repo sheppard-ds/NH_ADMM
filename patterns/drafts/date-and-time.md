@@ -32,9 +32,9 @@ The most common use for dates and times in our services is to record the beginni
 
 There are multiple patterns for achieving this in services, generally you should be able to achieve most things where recording something over time using a combination of the following;
 
-- Start date
-- End date
-- Change date
+-   Start date
+-   End date
+-   Change date
 
 ## Start date
 
@@ -48,14 +48,19 @@ We use end date to signify the end of an event or status. When used as a field n
 
 Like start date, your service can present the field by it's accepted domain name if that term is canonical.
 
+## Change Date
+
+We use change date to signify a change to an event or record that does not change the nature of the item enough to justify giving the item an end date and creating a new item. For example if an entry for a school has an update to the head teacher field, it is still the same school thus the same item. However we needed to record a change to the item and the date the change occurred. When used as a field name it should be recorded as `change-date`, other names for this field are unacceptable
+
+
 ### Recording point in time data effectively using start and end dates
 
 It is best practice to signify changes in status or similar using only start date and end date, with a new row for each material change. For example, we moved offices from Aviation House to Clive House in January 2018, which should be recorded in a service like this;
 
- organisation | office | start-date | end-date
---------------|--------|------------|---------
-FSA|Aviation House|2010-04-01|2017-12-31
-FSA|Clive House|2018-01-01|
+| organisation | office | start-date | end-date |
+|--------------|--------|------------|---------|
+| FSA | Aviation House | 2010-04-01 | 2017-12-31 |
+| FSA | Clive House | 2018-01-01 ||
 
 This format means that current status and point in time reporting are supported easily by using the correct querying technique.
 

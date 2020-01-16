@@ -4,10 +4,10 @@
 The County Parish Holding number identifies one or more parcels of land, which when grouped together form a holding.
 
 In the FSA it exists solely for the purposes of linking with data from external sources, including (but not limited to);
-- Animal and Plant Health Agency
-- Red Tractor Farm Assurance
-- Environment Agency
-- Public Health England
+-   Animal and Plant Health Agency
+-   Red Tractor Farm Assurance
+-   Environment Agency
+-   Public Health England
 
 ### Data type and pattern
 When working with the CPHN in the FSA our preferred pattern to split the CPHN in to three separate fields;

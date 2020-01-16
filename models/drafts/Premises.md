@@ -15,8 +15,8 @@ There are a number of identifiers for premises, including the postal address. Th
 Not all address or geospatial data refers to premises.
 
 ### Synonyms
-- Location
+-   Location
 
 ### Key Properties
- - [Address](https://en.wikipedia.org/wiki/Address#United_Kingdom) _this would be a link to the pattern library_
- - [UPRN](https://www.ordnancesurvey.co.uk/business-government/tools-support/uprn)
+-   [Address](https://en.wikipedia.org/wiki/Address#United_Kingdom) _this would be a link to the pattern library_
+-   [UPRN](https://www.ordnancesurvey.co.uk/business-government/tools-support/uprn)

@@ -12,7 +12,7 @@ excerpt: "Enterprise data model relating to Establishment as defined by the Food
 mathjax: "false" # change to true if you are going to include formulas
 ---
 
-# Enterprise Data Model
+# Establishment
 ### Name
 Establishment
 #### Model creation date
@@ -22,12 +22,12 @@ Establishment
 ### Theme
 *
 ### Unique Identifiers
-The unique identifier for an establishment is an 18 character string structured like: XXXXXX-XXXXXX-XXXXXX
+The unique identifier for an establishment is an 18 character string structured like: `XXXXXX-XXXXXX-XXXXXX`
 ### Definition
-Establishments are the central unit of enrolment within food and feed related legisation. The key fields of an establishment are its premises and its operator. A change in either of these gives rise to a different establishment. Other changes, such as changes in establishment type or the mix of activities requiring registration or approval which it undertakes, trigger a change of establishment.
+Establishments are the central unit of enrolment within food and feed related legisation. The key fields of an establishment are its Premises and its Operator. A change in either of these gives rise to a different establishment. Other changes, such as changes in establishment type or the mix of activities requiring registration or approval which it undertakes, trigger of the change of establishment.
 
 ### What it is not
-As far as the FSA is concerned an establishment is only an establishment if it is related to food. This means that your local phone shop is not counted as an establishment as far as the FSA is concerned.
+As far as the FSA is concerned an establishment is only an establishment if it is related to food or feed. This means that your local phone shop is not counted as an establishment as far as the FSA is concerned.
 ### Synonyms
 *   approved Establishment
 *   registered Establishment
@@ -42,7 +42,7 @@ FSA Data Team
 ### Owner
 FSA Data Team
 ### Source
-An establishment is created during the register a food business process.
+Most establishments is created during the register a food business process.
 ### Reference data
 Once available link to unified view here
 ### Key Properties
@@ -52,5 +52,9 @@ The key properties that define what an establishment is are its operator and pre
 The key properties of an establishment are the premises in question and its operator:
 *   [Premises](/model/draft/Premises.md)
 *   [Operator](http://www.google.com)
+
+For an establishment to be an approved establishment it must be attached to at least one [activity](/model/draft/Activity.md)
+
+Registered establishment and some approved establishments are registered by local authorities # link to competent authorities
 #### Model created by
 FSA Data Team

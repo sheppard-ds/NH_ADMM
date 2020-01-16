@@ -48,3 +48,5 @@ mathjax: "false" # change to true if you are going to include formulas
 #### Contextual Properties
 *
 #### Model created by
+
+#### Further Reading
