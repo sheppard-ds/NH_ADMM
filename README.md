@@ -14,7 +14,11 @@ You are welcome to take a look at our [template for our entity models](/EntityMo
 
 ### Data Patterns
 
-Data patterns are 
+Data patterns are the smallest unit of best practice in the data design system. They are repeatable patterns for data elements which often work at the field level or across multiple fields for elements that work better in that way.
+
+Some of the patterns are industry recognised best practices, put into context for the FSA, some are FSA specific and some are cross-government or cross-sector and are our view of working with those data elements within our domain.
+
+Everyone who works on services for the FSA should be aware of the data patterns and use them. By doing this we begin to converge new and legacy services on established patterns which helps to reduce development time and increases data interoperability.
 
 ### Instructions
 please see the below files for instructions on how to:
