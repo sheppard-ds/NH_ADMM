@@ -14,12 +14,13 @@ Competent authorities are in the main local government bodies but could also be 
 
 The Competent Authority field is a string field of **xx** characters.  (**DN - are the values restricted to Council Types LOV plus specific others or something less prescriptive?  Have assumed restricted to prescribed LOVs at the moment**)
 
-#### Allowable entries
+### Allowable entries
 
-Entries are restricted to valid local authority types, plus FSA specific additional organisation types
+Entries are restricted to valid Local Authority types, plus FSA specific additional organisation types
 
-[List of Local Authority Types](https://www.registers.service.gov.uk/registers/local-authority-type)
-[List of additional types](**https://blahblahblah**) (**DN add link to FSA CA Types**)
+### Registers 
+-   [List of Local Authority Types](https://www.registers.service.gov.uk/registers/local-authority-type)
+-   [List of additional FSA Competent Authority types](https://data.food.gov.uk/codes/blahblahblah) (**DN add link to FSA CA Types when done**)
 
 ### FSA Additional Competent Authority types
 
