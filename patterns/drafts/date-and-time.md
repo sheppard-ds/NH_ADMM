@@ -62,7 +62,7 @@ It is best practice to signify changes in status or similar using only start dat
 | FSA | Aviation House | 2010-04-01 | 2017-12-31 |
 | FSA | Clive House | 2018-01-01 ||
 
-This format means that current status and point in time reporting are supported easily by using the correct querying technique.
+This format means that current status and point in time reporting are supported easily by using the correct query technique.
 
 ## Change date
 
