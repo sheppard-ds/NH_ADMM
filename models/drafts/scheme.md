@@ -1,25 +1,28 @@
 ---
 title: "Scheme"
 date: 2020-01-07
+
 categories:
     - Enrolment
+
 tags:
     - Enrolment  
     - Competent Authority
     - scheme
     - Registration
 
-header:
-  image: "/images/enrolheader.jfif"
-excerpt: "Food assurance schemes help to provide consumers and businesses with guarantees that food has been produced to particular standards."
-mathjax: "false"
-author_profile: false
-sidebar:
-    nav: "edms"
----
+excerpt: "Food assurance schemes help to provide, competent authorities, consumers, and businesses with guarantees that participants adhere to particular standards."
 
-## Definition
-Food assurance schemes help to provide consumers and businesses with guarantees that food has been produced to particular standards. These schemes are mainly voluntary arrangements.  The Food Standards Agency (FSA) maintains close contact with assurance schemes because of their potential to promote farm practices that contribute to recommended policy.
+---
+# Scheme
+
+This model was last updated on **2020-01-20**, this is version **1.0**
+
+##### Model created
+2020-01-07
+
+### Description
+Food assurance schemes help to provide, competent authorities, consumers, and businesses with guarantees that participants adhere to particular standards.   The Food Standards Agency (FSA) maintains close contact with assurance schemes because of their potential to promote practices that contribute to recommended policy.
 
 ## Key Properties
 *   Unique Identifier (UID) that identifies the establishment being enrolled for the scheme. Enrolments are concurrent and consecutive.  They have a start and end date and cannot be modified. If an establishment is removed from a scheme the status will be changed appropriately and an end date will be recorded.  Establishments can request to re-enroll provided they meet the criteria.  New enrollment documentation will be required and a new UID will be generated.  
