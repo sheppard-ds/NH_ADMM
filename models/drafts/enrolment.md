@@ -50,6 +50,7 @@ Not all reference numbers relate to activities or schemes.
 *   Link to the [Competent Authorities register](https://data.food.gov.uk/codes/) WIP
 
 ## Further Information
+*   Enrolments are concurrent and consecutive.  They have a start and end date and cannot be modified. If an establishment is removed from a scheme the status will be changed appropriately and an end date will be recorded.  Establishments can request to re-enroll provided they meet the criteria.  New enrollment documentation will be required and a new UID will be generated.
 *   Link to the [FHRS scheme](https://ratings.food.gov.uk/)
 *   Link to the [shellfish classification scheme](https://www.food.gov.uk/business-guidance/shellfish-classification).
 
