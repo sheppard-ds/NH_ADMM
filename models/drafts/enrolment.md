@@ -1,19 +1,3 @@
----
-title: "Enrolment"
-date: 2020-01-07
-categories:
-    - Enrolment
-tags:
-    - Enrolment  
-    - Competent Authority
-    - Approval
-    - Registration
-    - RaFB
-    - Establishment
-
-excerpt: "Enrolment is an FSA record of an Establishment to register or seek approval to perform a specified activity or be part of a recognised scheme."
-
----
 # Enrolement
 
 This model was last updated on **2020-01-20**, this is version **1.0**

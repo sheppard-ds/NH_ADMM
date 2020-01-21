@@ -1,19 +1,3 @@
----
-title: "Scheme"
-date: 2020-01-07
-
-categories:
-    - Enrolment
-
-tags:
-    - Enrolment  
-    - Competent Authority
-    - scheme
-    - Registration
-
-excerpt: "Food assurance schemes help to provide, competent authorities, consumers, and businesses with guarantees that participants adhere to particular standards."
-
----
 # Scheme
 
 This model was last updated on **2020-01-20**, this is version **1.0**

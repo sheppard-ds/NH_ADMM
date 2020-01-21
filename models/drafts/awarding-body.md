@@ -1,14 +1,3 @@
----
-title: "Awarding Body"
-date: 2020-01-21
-categories:
-    - Scheme
-tags:
-    - Awarding Body
-    - Scheme
-
-excerpt: "An Awarding Body is an organisation that developed and supports a scheme."
----
 # Awarding Body
 
 This model was last updated on **2020-01-21**, this is version **1.0**

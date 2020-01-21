@@ -1,17 +1,3 @@
----
-title: "Competent Authority Type" # title of document put in "Title".  This becomes the "Name"
-date: 2020-01-16 # date last updated in YYYY-MM-DD. This will take the place of the "date modified"
-categories: # list below each on a separate line with the prefix of  - category
-    - category
-tags: # list below each on a separate line with the prefix of  - tag
-    - Competent Authority
-    - Competent Authority Type
-header:
-  image: "" # put in path to header image file "/images/shellfish/lbv.jfif"
-excerpt: "" #synopsis of what the enterprise data model is, please type within "".
-mathjax: "false" # change to true if you are going to include formulas
----
-
 # Competent Authority Type
 
 Version 0.x

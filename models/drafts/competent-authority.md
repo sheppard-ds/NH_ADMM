@@ -1,20 +1,3 @@
----
-title: "Competent Authority"
-date: 2020-01-15
-categories:
-    - Competent Authority
-tags:
-    - Competent Authority
-    - Local Authority
-    - Port Health Authority
-    - Primary Authority
-    -   
-header:
-  image: ""
-excerpt: "A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority."
-mathjax: "false"
----
-
 ### Definition
 A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority.
 

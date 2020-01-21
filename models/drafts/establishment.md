@@ -1,17 +1,3 @@
----
-title: "Establishment" # title of document put in "Title".  This becomes the "Name"
-date: 2020-01-8 # date last updated in YYYY-MM-DD. This will take the place of the "date modified"
-categories: # list below each on a separate line with the prefix of  - category
-    - category
-tags: # list below each on a separate line with the prefix of  - tag
-    - tag
-    -   
-header:
-  image: "" # put in path to header image file "/images/shellfish/lbv.jfif"
-excerpt: "Enterprise data model relating to Establishment as defined by the Food Standards Agency, also relates to operator and premises" #synopsis of what the enterprise data model is, please type within "".
-mathjax: "false" # change to true if you are going to include formulas
----
-
 # Establishment
 ### Name
 Establishment

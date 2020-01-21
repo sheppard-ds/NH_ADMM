@@ -1,18 +1,3 @@
----
-title: "Activity"
-date: 2020-01-07
-categories:
-    - Enrolment
-tags:
-    - Enrolment  
-    - Competent Authority
-    - Approval
-    - Registration
-    - Activity
-    - Establishment
-
-excerpt: "In the context of the Food Standards Agency enrolment for an activity is the process of getting permission for an establishment to carry out certain actions."
----
 # Activity
 
 This model was last updated on **2020-01-20**, this is version **1.0**
