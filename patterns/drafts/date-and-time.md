@@ -1,8 +1,8 @@
 # Date and Time
 
-This pattern was last updated 14/01/2020, this is version 1.0
+This pattern was last updated 21/01/2020, this is version 1.0
 
-Pattern Created: 14/01/2020
+Pattern Created: 21/01/2020
 
 While date is a fundamental data type, and used in the FSA in the same way as other oganisations, we have a set of styles and best practices when working with dates in data for development teams to follow.
 
@@ -53,19 +53,13 @@ Like start date, your service can present the field by it's accepted domain name
 We use change date to signify a change to an event or record that does not change the nature of the item enough to justify giving the item an end date and creating a new item. For example if an entry for a school has an update to the head teacher field, it is still the same school thus the same item. However we needed to record a change to the item and the date the change occurred. When used as a field name it should be recorded as `change-date`, other names for this field are unacceptable
 
 
-### Recording point in time data effectively using start and end dates
+## Recording point in time data effectively and when to use change date
 
-It is best practice to signify changes in status or similar using only start date and end date, with a new row for each material change. For example, we moved offices from Aviation House to Clive House in January 2018, which should be recorded in a service like this;
+It is best practice to signify changes to a record using only start date and end date, with a new row for each material change. For example, we moved offices from Aviation House to Clive House in January 2018, which should be recorded in a service like this;
 
 | organisation | office | start-date | end-date |
 |--------------|--------|------------|---------|
 | FSA | Aviation House | 2010-04-01 | 2017-12-31 |
 | FSA | Clive House | 2018-01-01 ||
 
-This format means that current status and point in time reporting are supported easily by using the correct querying technique.
-
-## Change date
-
-The third type of date recording is change date. When used as a field name it should be recorded as `change-date`.
-
-Change date is used when
+This format means that current status and point in time reporting are supported easily by using the correct query technique.
