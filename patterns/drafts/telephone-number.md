@@ -10,7 +10,7 @@ Formats can vary by country or, in the case of the UK, within the country.
 
 In the UK a number is generally made up of a geographic area code (prefixed with 01 or 02), discounting the leading zero these vary in length from 2 to 5 digits.  
 
-The next part of the phone number (subscriber number can also vary in length) but the total number of digits will not exceed 10 (excluding the leading zero of the geographical code).
+The next part of the UK phone number (subscriber number can also vary in length) but the total number of digits will not exceed 10 (excluding the leading zero of the geographical code).
 
 It is common for geographical codes to be frequently misquoted eg the geographical code for London is 020 but often quoted as 0207 or 0208 with the 1st digit of the 8 digit subscriber number added followed by the remaining 7 digits.
 
@@ -24,17 +24,17 @@ Although it would be possible to validate entry of phone numbers or to split the
 
 ### Format
 
-Telephone numbers should be stored as a string entries, in order to preserve leading zeroes and potential special characters used for international dialling codes and formatting (eg +, (), -).
+Telephone number should be stored as a string entry in a single field, in order to preserve leading zeroes and potential special characters used for international dialling codes and formatting (eg +, (), -).
 
-Field length of 20 would allow for the following examples plus other international variants plus any spaces (Guidelines within E.146 would restrict to 15 characters with all spaces and special characters removed (excluding '+' symbol for country code))
+Field length of 20 would allow for the following examples plus other international variants plus any spaces (Guidelines within E.146 would restrict to 15 characters for international numbers 3 for country code and 12 for subscriber number, with all spaces and special characters removed (excluding '+' symbol for country code))
 
-01xxx xxxxxx
-01xx xxx xxxx
-020 xxxx xxxx
-01xx xx xxxxx
-+44 xxxx xxxx xxxx
+-   01xxx xxxxxx
+-   01xx xxx xxxx
+-   020 xxxx xxxx
+-   01xx xx xxxxx
+-   +44 xxxx xxxx xxxx
 
-DN - at the moment the above format is intentionally loose to avoid transformation/validation of telephone numbers prior to storage and vice versa for presentation.  Business discussions may introduce a more prescriptive format.
+DN - at the moment the above format is intentionally loose to avoid transformation/validation of telephone numbers prior to storage and vice versa for presentation given the complexities with geographic code length and user preferences.  Business discussions may introduce a more prescriptive format.  Consideration should also be given to recording the telephone number type eg mobile type if there is a business need for this
 
 ### References
 
