@@ -1,19 +1,3 @@
----
-title: "Scheme"
-date: 2020-01-07
-
-categories:
-    - Enrolment
-
-tags:
-    - Enrolment  
-    - Competent Authority
-    - scheme
-    - Registration
-
-excerpt: "Food assurance schemes help to provide, competent authorities, consumers, and businesses with guarantees that participants adhere to particular standards."
-
----
 # Scheme
 
 This model was last updated on **2020-01-20**, this is version **1.0**
@@ -22,7 +6,7 @@ This model was last updated on **2020-01-20**, this is version **1.0**
 2020-01-07
 
 ### Description
-Food assurance schemes help to provide, competent authorities, businesses and consumers with guarantees that participants adhere to particular standards.   
+Food assurance schemes help to provide, competent authorities, businesses and consumers with guarantees that participants adhere to particular standards.
 
 ### Unique Identifiers
 There are a number of identifiers for Scheme. The preferred unique identifier for Enrolment in the FSA is the Scheme-Id
@@ -44,6 +28,7 @@ Not all Scheme IDs relate to schemes in approved establishments.
 *   Link to [Competent Authorities register](https://data.food.gov.uk/codes/)
 
 ## Further Information
+Membership of some schemes may impact on the frequency of inspections under official controls.
 Examples of enrolment into food assurance schemes include;
 *   [FHRS Scheme](https://ratings.food.gov.uk/)
 *   [Shellfish Classification Scheme](https://www.food.gov.uk/business-guidance/shellfish-classification).

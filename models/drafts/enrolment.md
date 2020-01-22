@@ -1,19 +1,3 @@
----
-title: "Enrolment"
-date: 2020-01-07
-categories:
-    - Enrolment
-tags:
-    - Enrolment  
-    - Competent Authority
-    - Approval
-    - Registration
-    - RaFB
-    - Establishment
-
-excerpt: "Enrolment is an FSA record of an Establishment to register or seek approval to perform a specified activity or be part of a recognised scheme."
-
----
 # Enrolement
 
 This model was last updated on **2020-01-20**, this is version **1.0**
@@ -25,7 +9,7 @@ This model was last updated on **2020-01-20**, this is version **1.0**
 Enrolment is an FSA record of an Establishment to register or seek approval to perform a specified activity or be part of a recognised scheme.  
 
 ### Unique Identifiers
-There are a number of identifiers for Enrolment. The preferred unique identifier for Enrolment in the FSA is the Reference Number
+The preferred unique identifier for Enrolment in the FSA is the enrolment reference number
 
 ### What it is not
 Not all reference numbers relate to activities or schemes.
@@ -44,10 +28,8 @@ Not all reference numbers relate to activities or schemes.
 *   End Date
 
 ## Reference data
-*   Link to the [activities register](https://data.food.gov.uk/codes/organisation/_activities)
-*   Link to the [Establishment Types](https://data.food.gov.uk/codes/business/rafb/_establishment-type)
-*   Link to the [establishment](https://data.food.gov.uk/codes/_business)
-*   Link to the [Competent Authorities register](https://data.food.gov.uk/codes/) WIP
+*   [activities register](https://data.food.gov.uk/codes/organisation/_activities)
+*   [Enrolment](link to enrolment Status)
 
 ## Further Information
 *   Enrolments are concurrent and consecutive.  They have a start and end date and cannot be modified. If an establishment is removed from a scheme the status will be changed appropriately and an end date will be recorded.  Establishments can request to re-enroll provided they meet the criteria.  New enrollment documentation will be required and a new UID will be generated.
