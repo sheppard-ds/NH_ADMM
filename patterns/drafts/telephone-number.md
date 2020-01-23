@@ -22,7 +22,11 @@ Field length of 20 would allow for the following examples plus other internation
 -   01xx xx xxxxx
 -   +44 xxxx xxxx xxxx
 
-DN - at the moment the above format is intentionally loose to avoid transformation/validation of telephone numbers prior to storage and vice versa for presentation given the complexities with geographic code length and user preferences.  Business discussions may introduce a more prescriptive format.  Consideration should also be given to recording the telephone number type eg mobile type if there is a business need for this, although this could be identified by the 07xxx prefix.
+### Developers
+
+Telephone numbers should be represented consistently across FSA applications.
+
+To use the gov.uk Notify service please see the relevant API documentation available through the reference below.
 
 ### References
 
@@ -30,6 +34,7 @@ DN - at the moment the above format is intentionally loose to avoid transformati
 -   [International guidelines for presentation of telephone numbers](https://en.wikipedia.org/wiki/E.123)
 -   [UK telephone numbers](https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom)
 -   [International Trunk Prefix](https://en.wikipedia.org/wiki/Trunk_prefix)
+-   [Gov.UK.Notify service](https://www.notifications.service.gov.uk/features)
 
 #### Further reading
 
