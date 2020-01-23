@@ -1,9 +1,9 @@
 # Scheme
 
-This model was last updated on **2020-01-20**, this is version **1.0**
+This model was last updated on **23/01/2020**, this is version **1.0**
 
 ##### Model created
-2020-01-07
+07/01/2020
 
 ### Description
 Food assurance schemes help to provide, competent authorities, businesses and consumers with guarantees that participants adhere to particular standards.

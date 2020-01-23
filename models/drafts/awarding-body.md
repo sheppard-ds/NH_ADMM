@@ -1,9 +1,9 @@
 # Awarding Body
 
-This model was last updated on **2020-01-21**, this is version **1.0**
+This model was last updated on **23/01/2020**, this is version **1.0**
 
 ##### Model created
-2020-01-07
+07/01/2020
 
 ## Description
 An Awarding Body is an organisation that developed and supports a scheme.  Businesses and Establishments wishing to partake in the scheme must provide evidence that the guidelines outlaid in the scheme are adheard to, to the awarding body for their membership to be valid.
@@ -12,7 +12,7 @@ An Awarding Body is an organisation that developed and supports a scheme.  Busin
 The preferred unique identifier for in the FSA is the scheme number which will include the name of the Awarding Body.
 
 ## What it is not
-This Enterprise Date Model is not intended to provide a total description of the responsibilities of the Awarding Body.
+This Enterprise Data Model is not intended to provide a total description of the responsibilities of the Awarding Body.
 
 ## Synonyms
 *   Registering Body

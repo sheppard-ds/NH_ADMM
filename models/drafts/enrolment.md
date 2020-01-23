@@ -1,9 +1,9 @@
 # Enrolement
 
-This model was last updated on **2020-01-20**, this is version **1.0**
+This model was last updated on **20/01/2020**, this is version **1.0**
 
 ##### Model created
-2020-01-07
+07/01/2020
 
 ### Description
 Enrolment is an FSA record of an Establishment to register or seek approval to perform a specified activity or be part of a recognised scheme.  
