@@ -1,38 +1,40 @@
 # Activity
 
-This model was last updated on **23/01/2020**, this is version **1.0**
+This model was last updated on **23/01/2020**, this is version **0.2**
 
 ##### Model created
 07/01/2020
 
 ## Description
-In the context of the Food Standards Agency there are two main types of activity;
-*   Operational activities that are related to the production, processing, distribution and sales of Food and Feed from farm to fork.
-*   Legislative activities that are carried out to legislate and regulate the food and feed sector from farm to fork.
+Activity is one of the most complex entities within our data ecosystem.
 
-[approved activities list](https://data.food.gov.uk/codes/organisation/_activities)
+In the FSA business context an activity is something that happens within the food and feed sector or the regulation of that sector by the FSA or other [Competent Authority](doalink).
 
-Some regulatory activities will be Entities in their own right.  For example although Inspections may appear as an activity we also need to know more about the inspection model. For instance who carried out the inspection, where did it take place, when was it, what was being inspected, what were the results of the inspection, was any further action required.
+Some examples of activities which form part of the sector include;
 
-Other examples of Entities that could be considered as Activities include
-*   timesheets
-*   food and feed sampling
-*   shellfish inspections
-*   water sampling
+*   [The list of activities](https://data.food.gov.uk/codes/organisation/_activities) which fall under the legislation of approved food establishments
+*   [The list of activities](https://data.food.gov.uk/codes/business/animal-feed-establishments/_feed-activities) which fall under the regulations for animal feed
+
+Some examples of activities which form part of the regulation of the sector include;
+
+*   The inspection of an establishment prior to gaining approval to undertake an approved activity
+*   Taking food samples from food establishments
+
+### Related entities
+
+Some activities will be entities in their own right.  For example, inspections are an activity, but the properties of that entity can vary from scheme to scheme.
+
 
 ## Unique Identifiers
-There are a number of identifiers for activity. The preferred unique identifier for in the FSA is the activity number.
+Where possible, activities should be recorded as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
 ## What it is not
 An activity is not a scheme but a scheme can be an activity.
 
 ## Synonyms
-*   Activity
-*   Activity Number
-*   Activity Registration
-*   Approved Activities
-*   Admin Activities
-*   Regulatory Activities
+*   Approved activities
+*   Administrative activities
+*   Regulatory activities
 
 ## Key Properties
 *   The Unique identifier (UID) that identifies the activity.
