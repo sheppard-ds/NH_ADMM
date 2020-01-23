@@ -1,28 +1,30 @@
 # Activity
 
-This model was last updated on **2020-01-20**, this is version **1.0**
+This model was last updated on **23/01/2020**, this is version **1.0**
 
 ##### Model created
-2020-01-07
+07/01/2020
 
 ## Description
 In the context of the Food Standards Agency there are two main types of activity;
 *   Operational activities that are related to the production, processing, distribution and sales of Food and Feed from farm to fork.
-*   Regulatory activities that are carried out to legislate and regulate the food and feed sector from farm to fork.
+*   Legislative activities that are carried out to legislate and regulate the food and feed sector from farm to fork.
 
 [approved activities list](https://data.food.gov.uk/codes/organisation/_activities)
 
-Some regulatory activities will be Entities in their own right.  For example although Inspections may appear as an activity we also need to know more about the inspection model. For instance who carried out the inspection, where did it take place, when was it, what was being inspected, what were the results of the inspection, was any further action requited.
+Some regulatory activities will be Entities in their own right.  For example although Inspections may appear as an activity we also need to know more about the inspection model. For instance who carried out the inspection, where did it take place, when was it, what was being inspected, what were the results of the inspection, was any further action required.
 
 Other examples of Entities that could be considered as Activities include
 *   timesheets
-*   food and feed
+*   food and feed sampling
+*   shellfish inspections
+*   water sampling
 
 ## Unique Identifiers
 There are a number of identifiers for activity. The preferred unique identifier for in the FSA is the activity number.
 
 ## What it is not
-Not all activities are  numbers are for establishments to carry out an activity.  Some activity codes will be for internal use only.
+An activity is not a scheme but a scheme can be an activity.
 
 ## Synonyms
 *   Activity
@@ -34,8 +36,6 @@ Not all activities are  numbers are for establishments to carry out an activity.
 
 ## Key Properties
 *   The Unique identifier (UID) that identifies the activity.
-*   Identify to person, business and establishment.
-*   Records the activity / scheme being enrolled into
 *   Links to the appropriate official controls where appropriate.
 
 It is important to recognise that, ownership and administration of activities can span different competent authorities. See further information for examples.  
