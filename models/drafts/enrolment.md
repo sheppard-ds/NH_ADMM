@@ -1,6 +1,6 @@
 # Enrolement
 
-This model was last updated on **20/01/2020**, this is version **1.0**
+This model was last updated on **20/01/2020**, this is version **1.0** Category: **experimental**
 
 ##### Model created
 07/01/2020

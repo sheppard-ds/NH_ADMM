@@ -1,6 +1,6 @@
 # Activity
 
-This model was last updated on **23/01/2020**, this is version **0.2**
+This model was last updated on **23/01/2020**, this is version **0.2** Category: **experimental**
 
 ##### Model created
 07/01/2020
@@ -29,7 +29,7 @@ Some activities will be entities in their own right.  For example, inspections a
 Where possible, activities should be recorded as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
 ## What it is not
-An activity is not a scheme but a scheme can be an activity.
+An activity is not a scheme but a scheme can have multiple activities.
 
 ## Synonyms
 *   Approved activities
