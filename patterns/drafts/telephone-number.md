@@ -1,20 +1,22 @@
 # Telephone Number
 
-This pattern was last updated 23/01/2020, this is version 0.x
+This pattern was last updated 23/01/2020, this is version 0.3
 
 Pattern Created: 17/01/2020
+
+Status:
 
 A telephone number is a sequence of digits used to connect to a fixed line or wireless device.  
 
 Telephone numbers should only be collected and stored if there is a genuine need
 
-Although it would be possible to validate entry of phone numbers or to split the storage of phone numbers into geographical and subscriber numbers the effort to do this may outweigh the current benefits for the FSA at present.  Therefore the following formatting is proposed
+Although it would be possible to validate entry of phone numbers or to split the storage of phone numbers into geographical and subscriber numbers the effort to do this may outweigh the current benefits for the FSA at present.
 
 ### Format
 
 Telephone number should be stored as a string entry in a single field, in order to preserve leading zeroes and potential special characters used for international dialling codes and formatting (eg +, (), -).
 
-Field length of 20 would allow for the following examples plus other international variants plus any spaces (Guidelines within E.146 would restrict to 15 characters for international numbers, 3 for country code and 12 for subscriber number, with all spaces and special characters removed (excluding '+' symbol for country code))
+A field length of 20 would allow for the following examples plus other international variants and spaces (guidelines within E.146 - International Telephone Formats would restrict to 15 characters for international numbers, 3 for country code and 12 for subscriber number, with all spaces and special characters removed (excluding '+' symbol for country code))
 
 -   01xxx xxxxxx
 -   01xx xxx xxxx
@@ -24,9 +26,7 @@ Field length of 20 would allow for the following examples plus other internation
 
 ### Developers
 
-Telephone numbers should be represented consistently across FSA applications.
-
-To use the gov.uk Notify service please see the relevant API documentation available through the reference below.
+FSA use telephone numbers primarily to send alerts using the gov.uk Notify service.  Please see the relevant API documentation available through the reference below.
 
 ### References
 
