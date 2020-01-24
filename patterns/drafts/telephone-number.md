@@ -1,10 +1,8 @@
 # Telephone Number
 
-This pattern was last updated 23/01/2020, this is version 0.3
+This pattern was last updated 23/01/2020, this is version 1.0
 
-Pattern Created: 17/01/2020
-
-Status:
+Pattern Created: 17/01/2020. This pattern is stable.
 
 A telephone number is a sequence of digits used to connect to a fixed line or wireless device.  
 
