@@ -9,13 +9,14 @@ This pattern covers the standard uk address pattern.
 ### Format
 
 The address consists of five lines as follows
+
 | Line No | Description  | Required |
 |---------|--------------|----------|
 | Line 1  |              | Required |
 | Line 2  |              | Optional |
 | Line 3  | Town or City | Required |
 | Line 4  | County       | Optional |
-| Line 5  | Postcode     | Required/Optional ???|
+| Line 5  | Postcode     | Required/Optional ??? |
 
 #### Notes
 Lines 1 and 2 - Street names should not be abbreviated eg Road, Lane Street, Avenue should not be abbreviated to Rd, Ln, St or Ave.
