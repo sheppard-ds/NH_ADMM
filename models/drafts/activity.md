@@ -2,7 +2,7 @@
 
 This model was last updated on **23/01/2020**, this is version **0.2**
 
-The model is currently **experimental** :alembic:
+The model is **experimental**. :alembic:
 
 ##### Model created
 07/01/2020
