@@ -1,5 +1,5 @@
 ---
-title: home
+title: Welcome
 has_children: false
 nav_order: 1
 ---
