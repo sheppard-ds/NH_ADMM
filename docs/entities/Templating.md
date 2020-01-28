@@ -4,6 +4,7 @@ title: Entity structure
 nav_order: 2
 has_children: false
 parent: Entities
+categories: templating
 ---
 # Entity Templating
 We template entities consistently, but not all entities use all of the templated properties.
@@ -24,3 +25,12 @@ or
 
 Stable
 {: .label .label-green }
+
+### Model created
+We record the date the model was first created to help us track versions.
+
+### Description
+This is frequently the largest section, and the only one we recommend everyone reads in full. Here we trying to explain, in plain English, what they entity is within the context of FSA business. We try to keep it as concise as possible but some concepts are fundamental to our business and require a detailed explanation.
+
+#### What it is not
+Here we try and call out
