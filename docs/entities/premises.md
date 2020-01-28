@@ -1,3 +1,12 @@
+---
+layout: default
+title: Premises
+nav_order: 2
+has_children: false
+parent: Establishment
+categories: entity
+---
+
 # Premises
 
 This model was last updated on **13/01/2020**, this is version **1.0**

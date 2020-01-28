@@ -1,3 +1,13 @@
+---
+layout: default
+title: Establishment
+nav_order: 3
+has_children: true
+parent: Entities
+categories: entity
+---
+
+
 # Establishment
 ### Name
 Establishment
