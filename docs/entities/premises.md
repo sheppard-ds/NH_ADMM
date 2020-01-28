@@ -4,6 +4,7 @@ title: Premises
 nav_order: 2
 has_children: false
 parent: Establishment
+grandparent: Entities
 categories: entity
 ---
 
