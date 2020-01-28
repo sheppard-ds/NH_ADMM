@@ -3,6 +3,7 @@ layout: default
 title: Entity structure
 nav_order: 2
 has_children: false
+parent: Entities
 ---
 # Entity Templating
 We template entities consistently, but not all entities use all of the templated properties.
