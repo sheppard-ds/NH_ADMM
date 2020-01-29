@@ -1,6 +1,15 @@
+---
+
+layout: default
+title: Patterns
+nav_order: 5
+has_children: false
+
+---
+
 # Telephone Number
 
-This pattern was last updated 23/01/2020, this is version 1.0
+This pattern was last updated 29/01/2020, this is version 0.xx
 
 Pattern Created: 17/01/2020. This pattern is stable.
 
