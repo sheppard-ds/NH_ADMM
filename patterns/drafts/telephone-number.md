@@ -11,7 +11,9 @@ has_children: false
 
 This pattern was last updated 29/01/2020, this is version 0.xx
 
-Pattern Created: 17/01/2020. This pattern is stable.
+Pattern Created: 17/01/2020.
+
+Stable {: .label .label-green }
 
 A telephone number is a sequence of digits used to connect to a fixed line or wireless device.  
 
