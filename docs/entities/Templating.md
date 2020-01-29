@@ -30,7 +30,28 @@ Stable
 We record the date the model was first created to help us track versions.
 
 ### Description
-This is frequently the largest section, and the only one we recommend everyone reads in full. Here we trying to explain, in plain English, what they entity is within the context of FSA business. We try to keep it as concise as possible but some concepts are fundamental to our business and require a detailed explanation.
+This is frequently the largest section, and the only one we recommend everyone reads in full. Here we try to explain, in plain English, what they entity is within the context of FSA business. We try to keep it as concise as possible but some concepts are fundamental to our business and require a detailed explanation.
+
+#### Related entities and synonyms
+Often a business entity will be known by different names. There are two distinct ways in which this happens;
+
+1.  One entity is a child or sibling of another entity, for example;
+  -  An `Approved Establishment` and a `Registered Establishment` are both child entities of `Establishment`, they share the core properties of the parent entity but also have properties distinct to their sub-domain. Where this occurs we will have models for each entity for you to explore
+2.  They are the same entity but the names are different across business areas
+
+Where there are related entities and synonyms, we will present them in their own lists.
 
 #### What it is not
-Here we try and call out
+Sometimes entities are confused with other entities so often that in order to being to unpick those mental shortcuts we need to specifically call out what the entity is not.
+
+### Key properties, identifiers and reference data
+This is where we call out the properties for the entity that we think are fundamental to the entity, and if were excluded from an implementation of the entity would render it functionally useless.
+
+Part of this is understanding how entities are most frequently linked to other data in our ecosystem and harmonising the joins by providing a consistent set of base properties.
+
+Some key properties will have patterns which will be linked here.
+
+#### Unique identifiers
+Some entities will specify a field or pattern for their unique identifier that should always be used when modelling the entity for a service. This must always be used even if it is not presented in the service to ensure interoperability.
+
+#### Reference data

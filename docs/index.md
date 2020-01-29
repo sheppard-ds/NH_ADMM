@@ -4,15 +4,15 @@ has_children: false
 nav_order: 1
 ---
 
-# FSA Enterprise Data Models and Patterns
+# FSA data entities and patterns
 This repository organises our enterprise data models and data patterns designed by the Data Team for use by anyone in the Agency (or outside if you like 👍)
 
 We've also turned it into a GitHub pages site to make it easier to browse.
 
 These models and patterns are foundational to the architectural principle of data convergence to standards over time (aka "fixing the plumbing"). We aim to converge our data across services towards the definitions and entities used throughout the business. We do this by providing repeatable patterns and templating for data, this is a tangible first step towards developing a design system for data within the FSA.
 
-## Enterprise Data Models
-An enterprise data model captures the fundamental properties of a business entity so that we can try to harmonise the definition of that entity across services and the business.
+## Entities
+An entity data model captures the fundamental properties of a business entity so that we can try to harmonise the definition of that entity across services and the business.
 
 They define how the entity exists within the scope of the business, explains the key properties, and gives guidance on implementing that entity in services. Key properties of an entity do not include all properties, only those that when absent would make the entity inoperable.
 
@@ -20,7 +20,7 @@ The creation of these models is an ongoing and evolutionary process so this repo
 
 You are welcome to take a look at our template for our entity models.
 
-## Data Patterns
+## Patterns
 Data patterns are the smallest unit of best practice in the data design system.
 
 They are repeatable patterns for data components which often work at the field level or across multiple fields for elements that work better in that way.
