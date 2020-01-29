@@ -1,3 +1,12 @@
+---
+
+layout: default
+title: Patterns
+nav_order: xx
+has_children: false
+
+---
+
 # address-uk
 
 This pattern was last updated 28/01/2020, this is version 0.2
@@ -13,7 +22,7 @@ Address is mostly used in the FSA for premises information
 The address consists of five lines as follows.  It is recommended that an address matching service is used, where a postcode is used to search for the correct address.  Technical Design Authority will be able to advise on API to use.  
 
 | Line No | Description  | Required |
-|---------|--------------|----------|
+|:--------|:-------------|:---------|
 | Line 1  | Building and Street | Required |
 | Line 2  |              | Optional |
 | Line 3  | Town or City | Required |
@@ -36,6 +45,7 @@ The address consists of five lines as follows.  It is recommended that an addres
 -   **Line 3** is used for the town or city (or locale, see example below), regardess of whether Line 2 has been populated.
 In the example below, Lines 1 and 2 have been used for the house name and street, followed by a locale on line 3, with the Town or City on line 4
 
+
     Red Bank Farm\
     The Shore\
     Bolton Le Sands\
@@ -44,7 +54,7 @@ In the example below, Lines 1 and 2 have been used for the house name and street
 
 -   **Line 4** - is used for the County, however, it is not actually required for mail delivery but is commonly included as part of the address.  Gov.uk shows line 4 as County in their address pattern (see reference below). It is possible for County to be missing from an address as in the above example.
 
--   **Minumum requirements** are that lines 1, 3 and 5 are populated.
+-   **Minimum requirements** are that lines 1, 3 and 5 are populated.
 
 ### References
 -   [Royal Mail - How to address mail](https://www.postoffice.co.uk/mail/how-to-address-mail)
