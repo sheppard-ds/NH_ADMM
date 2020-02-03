@@ -3,7 +3,6 @@ layout: default
 title: Entity templating
 nav_order: 2
 has_children: false
-parent: Entities
 categories: templating
 ---
 # Entity Templating
