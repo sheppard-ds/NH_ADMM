@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Entity templating
+title: Entity Templating
 nav_order: 2
 has_children: false
 categories: templating
