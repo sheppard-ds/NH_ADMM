@@ -28,6 +28,8 @@ Stable
 ### Model created
 We record the date the model was first created to help us track versions.
 
+---
+
 ## Description
 This is frequently the largest section, and the only one we recommend everyone reads in full. Here we try to explain, in plain English, what they entity is within the context of FSA business. We try to keep it as concise as possible but some concepts are fundamental to our business and require a detailed explanation.
 
@@ -42,6 +44,8 @@ Where there are related entities and synonyms, we will present them in their own
 
 ### What it is not
 Sometimes entities are confused with other entities so often that in order to being to unpick those mental shortcuts we need to specifically call out what the entity is not.
+
+---
 
 ## Properties, identifiers and reference data
 This section includes most of the detail about how to implement the model in services. It includes information about properties that must be used across all implementations of a model, those which are only used in specific implementations and where we use and how we implement controlled vocabularies and reference data (registers).
