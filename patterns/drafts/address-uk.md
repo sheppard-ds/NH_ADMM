@@ -1,17 +1,26 @@
 ---
 
 layout: default
-title: Patterns
+title: Address
 nav_order: xx
 has_children: false
 
 ---
 
+Experimental
+{: .label .label-yellow }
+
 # address-uk
 
-This pattern was last updated 28/01/2020, this is version 0.2
+This pattern was last updated 04/02/2020, this is version 0.3
 
 Pattern Created: 24/01/2020.  This pattern is experimental.
+
+(OS Places - Assumption?) Address matching using OS Places will return Delivery Point Addresses (DPA) sourced from Royal Mail, Local Authorities and Ordnance Survey data.  [Fields returned from DPA output](https://apidocs.os.uk/docs/os-places-dpa-output).  Address data is refreshed on a six week cycle known as an epoch eg epoch 73 was published on 30/01/2020 and contained changes up to 03/01/2020
+
+(**DN - happy to include the data fields here if appropriate but there is a risk it could become out of step**)
+
+
 
 This pattern covers the standard UK address pattern.  For delivery of mail the minimum requirements would be the addressee, town or city and postcode.  A more detailed field for a Unique Property Reference Number may be added in future, see references for further information
 
@@ -59,6 +68,7 @@ In the example below, Lines 1 and 2 have been used for the house name and street
 ### References
 -   [Royal Mail - How to address mail](https://www.postoffice.co.uk/mail/how-to-address-mail)
 -   [gov.uk - address pattern](https://design-system.service.gov.uk/patterns/addresses/)
+-   []()
 -   Premises Entity Model - to be added
 
 ### Further reading

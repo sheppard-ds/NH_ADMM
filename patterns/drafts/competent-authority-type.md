@@ -1,16 +1,16 @@
 ---
 
 layout: default
-title: Patterns
+title: Competent Authority Type
 nav_order: 3
 has_children: false
 
 ---
 # Competent Authority Type
 
-Version 0.x
+Version 0.1
 
-Pattern Created: 16/01/2020
+Pattern Created: 04/02/2020
 
 A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority.
 
