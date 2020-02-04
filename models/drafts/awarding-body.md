@@ -1,8 +1,14 @@
-# Awarding Body
+---
+layout: default
+title: Awarding-Body
+nav_order: xx
+has_children: false
+---
 
-This model was last updated on **23/01/2020**, this is version **1.0**
+This model was last updated on **04/02/2020**, this is version **0.2**
 
-The model is **experimental**. :alembic:
+Experimental
+{: .label .label-yellow }
 
 ##### Model created
 07/01/2020
