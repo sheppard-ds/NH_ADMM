@@ -2,7 +2,7 @@
 
 layout: default
 title: Address
-nav_order: xx
+nav_order: 2
 has_children: false
 
 ---

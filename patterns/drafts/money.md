@@ -46,7 +46,7 @@ Negative or minus figures can be displayed with a prefix of - or it can be displ
 | minus £123,456.00 | (£123,456.00) |
 
 ### Developers
-FSA use money for buying and selling goods and services.  In all cases Please see the relevant API documentation available through the reference below.
+FSA use money for buying and selling goods and services.  In all cases these figures will go through the finance team. 
 
 ### References
 -   [Currency code ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
