@@ -13,40 +13,43 @@ Pattern Created: 05/02/2020.
 Stable {: .label .label-green }
 
 ## Description
-A monetary sequence is used to denote the cost of a product or service. This can be a cost to the FSA or a source of revenue for the FSA. All monies are converted to pound sterling (£) as this is the currency of the Food Standards Agency (FSA) uses.
+
+The Food Standards Agency (FSA) use the same money pattern as [ONS](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datastandards#money) or
+
+The Food Standards Agency collects and stores information about money in many places and in various forms, such as cost, price and amount. A common standard for recording this information is important for maintaining data consistency and quality. This standard is primarily developed for operational charging data. This can be used while exchanging data with third parties and is also suitable for use in other domains.
 
 ### Format
 
-For the purposes of this example I have included the GBP Sterling £ sign as a prefix.  This may not always be used as some tables will display the decimilised number in a field and the £ sign will be displayed in the field Header.  
+We have decided to use a numeric format, allowing negative numbers with a minimum of two decimal places. A separate variable should be used to capture the currency code unless the value is in Great British Pounds. A separate but optional variable may also be used to indicate unit of quantity such as thousands or millions.  Justification of cells should be to the right.
 
-| Description | Number |
+
+| Description | Cost £ |
 | ----------------------------| -----------:|
-| One Pence  | £0.01 |
-| Ten Pence | £0.10 |
-| One Pound   | £1.00 |
-| Ten Pound | £10.00 |    
-| One Hundred Pound | £100.00 |
-| One Thousand Pound | £1,000.00 |
-| Ten Thousand Pound | £10,000.00 |
-| One Hundred Thousand Pound | £100,000.00 |
-| One Million Pound | £1,000,000.00 |
+| One Pence  | 0.01 |
+| Ten Pence | 0.10 |
+| One Pound   | 1.00 |
+| Ten Pound | 10.00 |    
+| One Hundred Pound | 100.00 |
+| One Thousand Pound | 1000.00 |
+| Ten Thousand Pound | 10000.00 |
+| One Hundred Thousand Pound | 100000.00 |
+| One Million Pound | 1000000.00 |
 
 For accounting purposes the FSA occasionally rounds to the nearest 1000 this usually has the following displayed in the column header as Cost (000).  For Example
 
-| Cost | Cost (000) |
-|------------: |--------: |
-| £123,456.00 | £123 |
+| Cost £ | Display as | Description |
+|-----------: |--------: |--------------------- |
+| 123456.00 | 123 | Rounding to nearest thousand |
+| 123689.00 | 124 | Rounding to nearest thousand |
+| 12343256.00 | 12  | Rounding to nearest million |
+| 12873256.00 | 13  | Rounding to nearest million |
 
-Negative or minus figures can be displayed with a prefix of - or it can be displayed within () please see table below for examples.
+Negative or minus figures can be displayed with a prefix of - please see table below for example.
 
 | Loss | Display as |
 |------------------ |-------------: |
-| minus £123,456.00 | -£123,456.00 |
-| minus £123,456.00 | -123,456.00 |
-| minus £123,456.00 | (£123,456.00) |
+| minus 123456.00 | -123456.00 |
 
-### Developers
-FSA use money for buying and selling goods and services.  In all cases these figures will go through the finance team. 
 
 ### References
 -   [Currency code ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
