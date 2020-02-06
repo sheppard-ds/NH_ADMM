@@ -12,6 +12,10 @@ Version 0.1
 
 Pattern Created: 04/02/2020
 
+Experimental
+{: .label .label-yellow }
+
+## Description 
 A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority.
 
 Competent Authorities deliver food and Feed official controls.  The Food Standards Agency is the Central Competent Authority responsible for oversight and assurance that the food and feed regulatory system is effective.  For example, the FSA works with other Competent Authorities to ensure the Food Health Rating Scheme is delivered as it should be.

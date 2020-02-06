@@ -6,15 +6,14 @@ nav_order: 2
 has_children: false
 
 ---
-
-Experimental
-{: .label .label-yellow }
-
 # address-uk
 
 This pattern was last updated 04/02/2020, this is version 0.3
 
-Pattern Created: 24/01/2020.  This pattern is experimental.
+Pattern Created: 24/01/2020.  
+
+Experimental
+{: .label .label-yellow }
 
 (OS Places - Assumption?) Address matching using OS Places will return Delivery Point Addresses (DPA) sourced from Royal Mail, Local Authorities and Ordnance Survey data.  [Fields returned from DPA output](https://apidocs.os.uk/docs/os-places-dpa-output).  Address data is refreshed on a six week cycle known as an epoch eg epoch 73 was published on 30/01/2020 and contained changes up to 03/01/2020
 
