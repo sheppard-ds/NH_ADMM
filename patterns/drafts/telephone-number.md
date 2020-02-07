@@ -2,7 +2,7 @@
 
 layout: default
 title: Patterns
-nav_order: 5
+nav_order: 7
 has_children: false
 
 ---
@@ -15,6 +15,7 @@ Pattern Created: 17/01/2020.
 
 Stable {: .label .label-green }
 
+## Description
 A telephone number is a sequence of digits used to connect to a fixed line or wireless device.  
 
 Telephone numbers should only be collected and stored if there is a genuine need
