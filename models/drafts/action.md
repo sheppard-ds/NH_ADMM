@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Management Under Controlled Scheme
+title: Action
 nav_order: 9
-has_children: false
+has_children: true
 ---
 
 This model was last updated on **04/02/2020**, this is version **0.1**
@@ -14,28 +14,30 @@ Experimental {: .label .label-yellow }
 
 ## Description
 
-Management under a control Scheme is the process of managing relationships, and activities between establishments and competent authorities within the Food and Feed sector.  This can include inspections, audits, Interventions and enforcement activities and can span multiple competent authorities. 
+Action is the process of managing relationships, and activities between various entities within the Food and Feed sector.  This can include inspections, audits, Interventions and enforcement activities and can span multiple competent authorities.
 
 ### Related entities
--   Most activities are categorised as part of the `scheme` they belong to.
--   Management under a controlled scheme most frequently happen at an `establishment`.
--   Management under a controlled scheme may have many `activities`.
--   Management under a controlled scheme is managed by one or multiple `Competent Authority`.
--   Under Management under a controlled scheme `Interventions` may be sought by the relevent `Competent Authority`.
--   Under Management under a controlled scheme `Enforcement` action may be sought by the relevent `Competent Authority`.
+-   Actions can depend on the `scheme` the `establishment` belongs to.
+-   Actions most frequently happen in conjunction with `establishment`.
+-   Actions may have many `activities`.
+-   Actions are managed by one or multiple `Competent Authority`.
+-   `Intervention` Actions may be sought by the relevant `Competent Authority`.
+-   `Enforcement` Actions may be sought by the relevant `Competent Authority`.
 
 ## Unique Identifiers
-Where possible, lists of activities should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
+Each action will relate to an establishment and it will be the responsibility of the Competent Authority to document.
 
 ## What it is not
-
+This is not a definitive list of Actions that can happen. This is the result of an incident and the following intervention(s) being managed by the appropriate competent authority within the food and feed sector.
 
 ## Synonyms
-*   
+*   Enforcement actions
+*   Intervention Actions
+*   Management under controlled scheme
 
 ## Key Properties
-*   The Unique identifier (UID) that identifies the activity.
-*   Links to the appropriate official controls where appropriate.
+*   The Unique identifier (UID) that identifies the incident.
+*   Links to the measures taken.
 
 
 ## Reference data
