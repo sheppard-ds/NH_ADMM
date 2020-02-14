@@ -15,7 +15,8 @@ This pattern was last updated 13/02/2020, this is version 1.0
 
 Pattern Created: 17/01/2020.
 
-Stable {: .label .label-green }
+Stable
+{: .label .label-green }
 
 ## Description
 
