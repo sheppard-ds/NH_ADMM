@@ -1,9 +1,11 @@
 ---
 
 layout: default
-title: Patterns
+title: Telephone Number
 nav_order: 7
 has_children: false
+parent: patterns
+categories: pattern
 
 ---
 
