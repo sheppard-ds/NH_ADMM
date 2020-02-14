@@ -4,7 +4,7 @@ layout: default
 title: Telephone Number
 nav_order: 7
 has_children: false
-parent: patterns
+parent: Patterns
 categories: pattern
 
 ---
