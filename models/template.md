@@ -1,38 +1,30 @@
-# Enterprise Data Model
-### Name
+# `ENTITY NAME`
+This model was last updated on **X**, this is version **0.x**
 
-#### Model creation date
+Experimental
+{: .label .label-yellow }
 
-#### Model last update date
+Stable
+{: .label .label-green }
 
-### Theme
-*
-### Unique Identifiers
+### Model created
 
-### Definition
+## Description
+
+### Related entities
+
+### Synonyms
 
 ### What it is not
 
-### Synonyms
-*
-### Definition Adopted by
+## Properties, identifiers and reference data
 
-### Definition source
+### Key properties
 
-### Adoptee Information
+### Contextual properties
 
-### Owner
-
-### Source
+### Unique identifiers
 
 ### Reference data
 
-### Key Properties
-*
-#### Controlled Vocabularies
-
-#### Contextual Properties
-*
-#### Model created by
-
-#### Further Reading
+## External sources and further reading
