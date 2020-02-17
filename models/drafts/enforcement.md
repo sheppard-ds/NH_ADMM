@@ -46,5 +46,6 @@ This is not a legal database of enforcement types.
 
 ## Reference data
 [Enforcement Actions](https://data.food.gov.uk/codes/enforcement-monitoring/_enforcement-actions)
+[Enforcement Type Pattern](enforcement-type.md)
 
 ## Further Information

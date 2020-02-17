@@ -14,7 +14,7 @@ Experimental {: .label .label-yellow }
 
 ## Description
 
-In the context of food and feed an intervention is the action of embedding practices and reporting on compliance within establishments, in order to improve working practices or prevent it from getting worse.  There are several intervention types that are routinely carried out on establishments to help identify poor practice and encourage compliance.
+In the context of food and feed an intervention is the action of embedding practices and reporting on complience within establishments, in order to improve working practices or prevent it from getting worse.  There are several intervention types that are routinely carried out on establishments to help identify poor practice and encourage compliance.
 
 *   Sampling visits
 *   Inspections and audits
@@ -52,6 +52,5 @@ This is not a comprehensive database of Interventions.
 
 ## Reference data
 [Intervention Type](https://data.food.gov.uk/codes/enforcement-monitoring/_intervention-type)
-[Intervention Type Pattern](intervention-pattern.md)
 
 ## Further Information
