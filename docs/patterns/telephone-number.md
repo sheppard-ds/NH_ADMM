@@ -1,9 +1,11 @@
 ---
 
 layout: default
-title: Patterns
+title: Telephone Number
 nav_order: 7
 has_children: false
+parent: Patterns
+categories: pattern
 
 ---
 
@@ -13,7 +15,8 @@ This pattern was last updated 13/02/2020, this is version 1.0
 
 Pattern Created: 17/01/2020.
 
-Stable {: .label .label-green }
+Stable
+{: .label .label-green }
 
 ## Description
 
