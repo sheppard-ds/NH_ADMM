@@ -18,11 +18,11 @@ Experimental
 14/02/2020
 
 ## Description
-At it's simplest, an Operator is the person or legal entity responsible for running a food business. When considered in tandem with `Premises`, the combined entity is an `Establishment`.
+Operator is the person or legal entity responsible for running a food business. When considered in tandem with `Premises`, the combined entity is an `Establishment`.
 
 The operator can be a `physical person` or a `legal person` and we sometimes use these terms to distinguish between the two. In data terms, these entities should be considered children of Operator, as they have different contextual properties.
 
-As the Operator can be a legal entity, such as a limited company, it is not appropriate for example to use the Operator entity if you were building an inspection service or similar. It can sometimes be necessary to identify a separate `Contact` entity.
+As the Operator can be a legal entity, such as a limited company, it is not necessarily appropriate to use the Operator entity if you were building an inspection service or similar. It can sometimes be necessary to identify a separate `Contact` entity.
 
 ### Related entities
 `Physical person`, `Legal person` and `Contact` are considered child entities of person.
@@ -32,16 +32,18 @@ As the Operator can be a legal entity, such as a limited company, it is not appr
 -   Trader
 
 ### What it is not
-The operator in this context is the entity which is associated with the `Establishment` which is being regulated under a scheme. Frequently operators can be owned by other entities. These entities are not the operator.
+The operator in this context is the entity which is associated with the `Establishment` which is being regulated under a scheme. Frequently operators can be owned by other legal entities. These entities are not the operator.
 
 ## Properties, identifiers and reference data
 
 ### Key properties
-When registering an establishment, the operator is assigned the registration identifier
+When registering an establishment, the operator is assigned the registration identifier, for example, the `approved premises reference number`.
 
 ### Contextual properties
+Operators can have a different address to the premises with which they are associated. This is most common when another company owns and runs the business, or when a sole trader lists their home address as the location for correspondence.
 
 ### Unique identifiers
+When the Operator is a limited company, we should include the `Company Reference Number` from Companies House in order to link to richer sources of data about the company and improve interoperability.
 
 ### Reference data
 
