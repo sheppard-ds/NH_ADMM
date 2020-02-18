@@ -5,7 +5,7 @@ nav_order: xx
 has_children: false
 ---
 
-This entity was last updated on **03/02/2020**. This is version **0.2**
+This entity was last updated on **18/02/2020**. This is version **0.2**
 
 Experimental
 {: .label .label-yellow }
@@ -14,43 +14,37 @@ Experimental
 09/01/2020
 
 ### Description
-A Competent Authority is defined as a body with a regulatory or supervisory role over the provision of a service, such as a professional body; for example, the Institute of Actuaries or a central or local government authority.
+A Competent Authority is a body with regulatory or supervisory oversight of a `scheme`.
 
-Competent Authorities deliver food and Feed official controls.  The FSA is the Central Competent Authority responsible for oversight and assurance that the food and feed regulatory system is effective.  For example, the FSA works with other Competent Authorities to ensure the Food Health Rating Scheme is delivered as it should be.
+Competent Authorities deliver food and feed official controls.  The FSA is the Central Competent Authority responsible for oversight and assurance that the food and feed regulatory system is effective.
 
 ### Related entities and synonyms
 
+#### Entities
+Scheme - owned and delivered by Competent Authorities.  Schemes may not be delivered by the same competent authority
+
+#### Synonym
 Local Authority
 
 ### What it is not
 This Enterprise Date Model is not intended to provide a total description of the responsibilities of a Competent Authority
 
 ## Properties, identifiers and reference data
-(This section includes most of the detail about how to implement the model in services. It includes information about properties that must be used across all implementations of a model, those which are only used in specific implementations and where we use and how we implement controlled vocabularies and reference data (registers).)
 
 ### Key properties
 *   CA Reference (URI from registry to be used - see reference data below)
-*   CA Official Name
-*   CA Name (**DN which name to use needs to be agreed across FSA business but could populate this field with the Official Name in the absence of anything else and then use this field - this would be the 'label' on the register**)
-*   [CA Type](patterns/drafts/competent-authority-type.md) (**This will need to be amended when pattern baselined**)
-*   [GEO area] (This will need to be amended when pattern baselined)
-    (**DN GSS codes/polygon files for Local authorities, CEFAS data for Shellfish areas etc - this would be the ideal but may not be achievable in the short term**) 
-     (**DN - Would we create a registry entry for this or maintain a list elsewhere?**)
-*   FSA Region (England, Wales, NI) (**DN - Would we create a registry entry for this or maintain a list elsewhere?**)
+*   CA Official Name - label
 
 #### Notes
-Start and End dates would be recorded on the registry entry and would be used to record creation and cessation of a Competent Authority and also changes to the above fields.
 
 ### Contextual properties
-(This section covers properties that are needed for specific implementations of an entity. Frequently, this will mean linking to code lists and vocabularies that are used within a specific sub-domain.
-
-Where the contextual implementation of an entity are significant, we create child entities and link to them here.)
+The key property fields are the minimum required for the Competent Authority entity, other fields may be added for implementation reasons eg type of authority but please avoid using other legacy fields such as additional reference numbers as this adds complexity.
 
 ### Unique identifiers
-(Some entities will specify a field or pattern for their unique identifier that should always be used when modelling the entity for a service. This must always be used even if it is not presented in the service to ensure interoperability.)
 
 ### Reference data
 link to [Competent Authority register](https://data.food.gov.uk/codes/reference-number/_authority)
 
 ## External sources and further reading
 
+(**DN - Consider ref to - 'The use of Competent Authority Identifiers in FSA datasets' document**)
