@@ -5,7 +5,7 @@ nav_order: xx
 has_children: false
 ---
 
-This entity was last updated on **03/02/2020**. This is version **0.1**
+This entity was last updated on **03/02/2020**. This is version **0.2**
 
 Experimental
 {: .label .label-yellow }
@@ -19,13 +19,8 @@ A Competent Authority is defined as a body with a regulatory or supervisory role
 Competent Authorities deliver food and Feed official controls.  The FSA is the Central Competent Authority responsible for oversight and assurance that the food and feed regulatory system is effective.  For example, the FSA works with other Competent Authorities to ensure the Food Health Rating Scheme is delivered as it should be.
 
 ### Related entities and synonyms
-(Often a business entity will be known by different names. There are two distinct ways in which this happens;
 
-1.  One entity is a child or sibling of another entity, for example;
-  -  An `Approved Establishment` and a `Registered Establishment` are both child entities of `Establishment`, they share the core properties of the parent entity but also have properties distinct to their sub-domain. Where this occurs we will have models for each entity for you to explore
-2.  They are the same entity but the names are different across business areas
-
-Where there are related entities and synonyms, we will present them in their own lists.)
+Local Authority
 
 ### What it is not
 This Enterprise Date Model is not intended to provide a total description of the responsibilities of a Competent Authority
@@ -34,11 +29,13 @@ This Enterprise Date Model is not intended to provide a total description of the
 (This section includes most of the detail about how to implement the model in services. It includes information about properties that must be used across all implementations of a model, those which are only used in specific implementations and where we use and how we implement controlled vocabularies and reference data (registers).)
 
 ### Key properties
-*   CA Reference (URI from registry to be used)
+*   CA Reference (URI from registry to be used - see reference data below)
 *   CA Official Name
 *   CA Name (**DN which name to use needs to be agreed across FSA business but could populate this field with the Official Name in the absence of anything else and then use this field - this would be the 'label' on the register**)
 *   [CA Type](patterns/drafts/competent-authority-type.md) (**This will need to be amended when pattern baselined**)
-*   GEO area (**DN GSS codes/polygon files for Local authorities, CEFAS data for Shellfish areas etc - this would be the ideal but may not be achievable in the short term**) (**DN - Would we create a registry entry for this or maintain a list elsewhere?**)
+*   [GEO area] (This will need to be amended when pattern baselined)
+    (**DN GSS codes/polygon files for Local authorities, CEFAS data for Shellfish areas etc - this would be the ideal but may not be achievable in the short term**) 
+     (**DN - Would we create a registry entry for this or maintain a list elsewhere?**)
 *   FSA Region (England, Wales, NI) (**DN - Would we create a registry entry for this or maintain a list elsewhere?**)
 
 #### Notes
@@ -56,6 +53,4 @@ Where the contextual implementation of an entity are significant, we create chil
 link to [Competent Authority register](https://data.food.gov.uk/codes/reference-number/_authority)
 
 ## External sources and further reading
-(Sometimes we use externally defined entities, properties, controlled vocabularies or reference data. We will always link to them when we do.
 
-Further reading may include links to policy or legislative documentation that was used as the basis for defining the model.)
