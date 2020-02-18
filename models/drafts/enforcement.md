@@ -17,26 +17,6 @@ Enforcement is the term for the available actions to a `Competent Authority` to 
 some examples include making the establishment change the way they operate in order to comply or removing the ability for the establishment to carry out activities until the changes are made.  This can also take the form of litigation, removal of services, suspension of licensing and fines.
 
 ### Related entities
-
-### Synonyms
-
-### What it is not
-
-## Properties, identifiers and reference data
-
-### Key properties
-
-### Contextual properties
-
-### Unique identifiers
-
-### Reference data
-
-## External sources and further reading
-
-
-
-### Related entities
 Enforcement is part of a `scheme`. It represents the actions available to the `Competent Authorities` who own or run the scheme. Often, the available enforcement actions under the scope of a scheme will be laid out in the legislation or policy documentation.
 
 Enforcement can happen to an `establishment`, `premises`, `operator` or an person depending on the specific enforcement action.
