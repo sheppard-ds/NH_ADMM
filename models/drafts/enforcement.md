@@ -4,33 +4,52 @@ title: Enforcement
 nav_order:
 has_children: True
 ---
-
+# Enforcement
 This model was last updated on **10/02/2020**, this is version **0.1**
 
 Experimental {: .label .label-yellow }
 
-##### Model created
+### Model created
 10/02/2020
-
 ## Description
+Enforcement is the term for the available actions to a `Competent Authority` to make establishments obey food or feed law, regulations, or policy which falls within a `scheme`.
 
-Enforcement is the process of making establishments obey food or feed law and regulations or adhere to the criteria set out within a food or feed related scheme. This can be done by making the establishment change the way they operate in order to comply or removing the ability for the establishment to carry out activities until the changes are made.  This can also take the form of litigation, removal of services, suspension of licensing and fines.
+some examples include making the establishment change the way they operate in order to comply or removing the ability for the establishment to carry out activities until the changes are made.  This can also take the form of litigation, removal of services, suspension of licensing and fines.
 
 ### Related entities
--   Enforcement is a child entity of `action`.
--   Enforcement can be taken due to non compliance of a `scheme`.
--   Enforcement can be take out on an `establishment`.
--   Enforcement can be taken due to non compliance of a `activity`.
--   Enforcement may have many `activities`.
--   Enforcement can be the result of unsuccessful `Interventions`
--   Enforcement is managed by one or multiple `Competent Authority`.
--   `Enforcement Type` is a child of `Enforcement`
+
+### Synonyms
+
+### What it is not
+
+## Properties, identifiers and reference data
+
+### Key properties
+
+### Contextual properties
+
+### Unique identifiers
+
+### Reference data
+
+## External sources and further reading
+
+
+
+### Related entities
+Enforcement is part of a `scheme`. It represents the actions available to the `Competent Authorities` who own or run the scheme. Often, the available enforcement actions under the scope of a scheme will be laid out in the legislation or policy documentation.
+
+Enforcement can happen to an `establishment`, `premises`, `operator` or an person depending on the specific enforcement action.
+
+Enforcement action is often the result of unsuccessful `interventions`, but not always.
 
 ## Unique Identifiers
-Each Enforcement will relate to an establishment and it will be the responsibility of the Competent Authority to document and to use their own unique identifier.
+Where possible, lists of enforcements should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
 ## What it is not
-This is not a legal database of enforcement types.
+An enforcement is not an `intervention` although like an `intervention` it forms part of the regulation of a scheme.
+
+Neither is it an `activity`, but all are associated with a `scheme`.
 
 ## Synonyms
 *   litigation
@@ -38,10 +57,10 @@ This is not a legal database of enforcement types.
 *   enforcement actions
 
 ## Key Properties
-*   The Unique identifier (UID) that identifies the activity.
-*   The date the action was taken
-*   Reason for the action being taken
-*   The establishment action was taken against
+*   The URI of the registry entry for the enforcement action
+*   The date(s) the enforcement action was available to be used under the scheme, as sometimes enforcement powers change
+*   The date(s) the enforcement actions were taken or expire
+*   Reason for the action being taken - there is frequently a benefit for making reasons a controlled vocabulary
 *   Type of enforcement taken
 
 ## Reference data

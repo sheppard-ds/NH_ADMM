@@ -14,42 +14,33 @@ Experimental
 07/01/2020
 
 ## Description
-Activity is one of the most complex entities within our data ecosystem.
+An activity is an action or power granted to food or feed businesses through registration, approval or compliance with specific regulatory `schemes`.
 
-In the FSA business context an activity is something that happens within the food and feed sector or the regulation of that sector by the FSA or other `Competent Authority` that needs to be recorded. Not all things that happen are an activity.
-
-Some examples of activities which form part of the sector include;
+Some examples of activities include;
 
 *   The list of activities which fall under the legislation of [approved food establishments](https://data.food.gov.uk/codes/organisation/_activities)
 *   The list of activities which fall under the regulations for [animal feed](https://data.food.gov.uk/codes/business/animal-feed-establishments/_feed-activities)
 
-Some examples of activities which form part of the regulation of the sector include;
-
-*   The inspection of an establishment prior to gaining approval to undertake an approved activity
-*   Taking food samples from food establishments
-
 ### Related entities
-Most activities are categorised as part of the `scheme` they belong to.
+All activities belong to a `scheme`, but a `scheme` is not a parent entity as they do not necessarily share a set of key properties.
 
-Activities most frequently happen at an `establishment`.
+Activities should be joined to `establishments`, not `premises`.
 
-Activities are a fundamental property of `enrolments`.
-
-Some activities will be entities in their own right.  For example, inspections are an activity, and there are key properties that are the same across all inspections, but there are also many different types of inspection which have their own unique properties, i.e., an inspection under the food hygiene ratings scheme looks for different things than one within the scope of meat hygiene but both are carried out at a premises which has an address
+An `establishment` which undertakes activities does so under a `scheme` which grants them approval to do them or registers them as doing them. The combination of `establishment` and `scheme` is known as an `enrolment`.
 
 ## Unique Identifiers
 Where possible, lists of activities should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
 ## What it is not
-An activity is not a scheme but a scheme can have multiple activities.
+An activity is not an action which forms part of the regulatory environment that monitors or enforces compliance within it. Those entities are `enforcement` and `intervention`.
 
 ## Synonyms
-*   Approved activities
-*   Administrative activities
-*   Regulatory activities
+*   Approved activity
+*   Business activity
+*   Registered activity
 
 ## Key Properties
-*   The Unique identifier (UID) that identifies the activity.
+*   The URI of the registry entry for the activity.
 *   Links to the appropriate official controls where appropriate.
 
 It is important to recognise that, ownership and administration of activities can span different competent authorities. See further information for examples.  
