@@ -15,10 +15,7 @@ Experimental {: .label .label-yellow }
 ## Description
 Intervention is the term for the available actions to a `Competent Authority` to monitor and record compliance of an establishments to obey food or feed law, regulations, or policy which falls within a `scheme`.
 
-or
-
-Intervention is the term for the available actions to a `Competent Authority` of embedding practices and reporting on compliance within establishments, in order to improve working practices or prevent it from getting worse.  There are several intervention types that are routinely carried out on establishments to help identify poor practice and encourage compliance.
-
+SOme examples of interventions include;
 *   Sampling visits
 *   Inspections and audits
 *   Verification and surveillance
@@ -46,10 +43,16 @@ An Intervention is not an `enforcement` although like an `enforcement` it forms 
 
 ## Key Properties
 *   The URI of the registry entry for the intervention action
-*   The date(s) the intervention action was available to be used under the scheme, as sometimes these change
-*   The date(s) the intervention actions were taken or expire
-*   Reason for the intervention being taken - there is frequently a benefit for making reasons a controlled vocabulary
-*   Type of intervention taken
+*   Name of the intervention
+
+## Contextual Property
+When applying Intervention actions it is important to record the following;
+*   Date of enforcement happens and the date it expires [why]
+*   What prior interventions tool place that led to this type of enforcement [why]
+*   What establishment it was applied to [why]
+*   Reason for the Enforcement actions [why]
+*   What Competent Authority enacted the enforcement [why]
+
 
 ## Reference data
 [Intervention Type](https://data.food.gov.uk/codes/enforcement-monitoring/_intervention-type)

@@ -27,9 +27,7 @@ Enforcement action is often the result of unsuccessful `interventions`, but not 
 Where possible, lists of enforcements should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
 ## What it is not
-An enforcement is not an `intervention` although like an `intervention` it forms part of the regulation of a scheme.
-
-Neither is it an `activity`, but all are associated with a `scheme`.
+An enforcement is not an `intervention` although like an `intervention` it forms part of the regulation of a scheme.  Neither is it an `activity`, but all are associated with a `scheme`.
 
 ## Synonyms
 *   litigation
@@ -43,8 +41,15 @@ Neither is it an `activity`, but all are associated with a `scheme`.
 *   Reason for the action being taken - there is frequently a benefit for making reasons a controlled vocabulary
 *   Type of enforcement taken
 
+## Contextual Property
+When applying Enforcement actions it is important to record the following;
+*   Date of enforcement happens and the date it expires [why]
+*   What prior interventions tool place that led to this type of enforcement [why]
+*   What establishment it was applied to [why]
+*   Reason for the Enforcement actions [why]
+*   What Competent Authority enacted the enforcement [why]
+
 ## Reference data
 [Enforcement Actions](https://data.food.gov.uk/codes/enforcement-monitoring/_enforcement-actions)
-[Enforcement Type Pattern](enforcement-type.md)
 
 ## Further Information
