@@ -4,6 +4,7 @@ title: Scheme
 nav_order: xx
 has_children: false
 ---
+# Scheme
 
 This model was last updated on **04/02/2020**, this is version **0.2**
 
@@ -23,9 +24,11 @@ Schemes will have an `enrolments` process.
 
 An `establishment` can enroll in multiple schemes.
 
+Schemes can be managed and maintained by multiple `competent authorities`  For example FHRS is owned by the FSA but implemented and maintained by Local Authorities.
+
 
 ### Unique Identifiers
-There are a number of identifiers for Scheme. The preferred unique identifier for Enrolment in the FSA is the Scheme-Id
+The preferred unique identifier for Enrolment in the FSA is the Scheme-Id.  The unique identifier should be the URI of the registry entry
 
 ### What it is not
 Not all Scheme IDs relate to schemes in approved establishments.
