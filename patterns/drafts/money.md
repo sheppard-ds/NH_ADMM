@@ -14,7 +14,9 @@ Stable {: .label .label-green }
 
 ## Description
 
-The Food Standards Agency (FSA) use the same money pattern as [ONS](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datastandards#money) or
+The Food Standards Agency (FSA) use the same money pattern as [ONS](https://www.ons.gov.uk/aboutus/transparencyandgovernance/datastrategy/datastandards#money)
+
+or
 
 The Food Standards Agency collects and stores information about money in many places and in various forms, such as cost, price and amount. A common standard for recording this information is important for maintaining data consistency and quality. This standard is primarily developed for operational charging data. This can be used while exchanging data with third parties and is also suitable for use in other domains.
 
