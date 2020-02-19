@@ -32,11 +32,11 @@ This Enterprise Date Model is not intended to provide a total description of the
 ## Properties, identifiers and reference data
 
 ### Key properties
-*   CA Reference (URI from registry to be used)
+
+*   CA Reference (URI from registry to be used - see reference data below)
 *   CA Official Name - label
 
 #### Notes
-
 
 ### Contextual properties
 The key property fields are the minimum required for the Competent Authority entity, other fields may be added for implementation reasons eg type of authority but please avoid using other legacy fields such as additional reference numbers as this adds complexity.
