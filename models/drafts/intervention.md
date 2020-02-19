@@ -7,7 +7,8 @@ has_children: True
 
 This model was last updated on **10/02/2020**, this is version **0.1**
 
-Experimental {: .label .label-yellow }
+Experimental
+{: .label .label-yellow }
 
 ##### Model created
 10/02/2020
@@ -15,7 +16,7 @@ Experimental {: .label .label-yellow }
 ## Description
 Intervention is the term for the available actions to a `Competent Authority` to monitor and record compliance of an establishments to obey food or feed law, regulations, or policy which falls within a `scheme`.
 
-SOme examples of interventions include;
+Some examples of interventions include;
 *   Sampling visits
 *   Inspections and audits
 *   Verification and surveillance
@@ -47,11 +48,17 @@ An Intervention is not an `enforcement` although like an `enforcement` it forms 
 
 ## Contextual Property
 When applying Intervention actions it is important to record the following;
-*   Date of enforcement happens and the date it expires [why]
-*   What prior interventions tool place that led to this type of enforcement [why]
-*   What establishment it was applied to [why]
-*   Reason for the Enforcement actions [why]
-*   What Competent Authority enacted the enforcement [why]
+
+The name of the `establishment` the intervention was applied to. This will help build up a picture of how the `establishment` is performing and help schedule future interventions and possibly impact on possible `enforcements`.
+
+By recording the `Reason` for the Intervention along with the `Competent Authority` that carried out the intervention will help build the picture and ascertain trends and allow Competent Authorities to focus on area's for further `interventions`, or build a case for  `enforcement` action.
+
+The name of the `Competent Authority` that implemented the enforcement, because the establishment may have intervention action taken by multiple `competent authorities` for the same `reason` and or same period.  It also gives other Competent Authorities a place to go to for further information for future interventions and enforcements.
+
+It is important that the `start-date` of the enforcement is recorded as it can determine `end-date` of an enforcement action. It can also help identify cases of production during a period of time when the business shouldn't have been operating, and by having start and end dates of enforcement actions makes the task of identifying produce processed within these dates easier.
+
+A history of `interventions` and enforcements occurring within an `Establishment` will help build a picture and could impact on the severity of future enforcements by looking at the `establishments` history and looking for trends.
+
 
 
 ## Reference data
