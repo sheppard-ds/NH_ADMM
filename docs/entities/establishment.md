@@ -2,7 +2,7 @@
 layout: default
 title: Establishment
 nav_order: 1
-has_children: true
+has_children: false
 parent: Entities
 categories: entity
 ---
@@ -43,7 +43,7 @@ In addition, the establishment entity should identify the specific combination o
 ## Contextual properties
 Approved establishments are approved to undertake specific activities laid out in legislation, please see the [approved activities code list](https://data.food.gov.uk/codes/business/approved-food-establishments/_activities).
 
-Approved establishments are also identified in the system that handles approvals by their `Approval Number`. 
+Approved establishments are also identified in the system that handles approvals by their `Approval Number`.
 
 Registered establishments and some approved activities are handled by other [competent authorities](https://data.food.gov.uk/codes/reference-number/_authority).
 
