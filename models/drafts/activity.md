@@ -40,9 +40,14 @@ An activity is not an action which forms part of the regulatory environment that
 *   Registered activity
 
 ## Key Properties
+<<<<<<< HEAD
 *   The URI of the registry entry for the activity
 *   
 *   Links to the appropriate official controls where appropriate
+=======
+*   The URI of the registry entry for the activity.
+*   Links to the official controls where appropriate.
+>>>>>>> f5c4efb61fe0fbcf592c34cfeadf42bf763e6f9e
 
 It is important to recognise that, ownership and administration of activities can span different competent authorities. See further information for examples.  
 
