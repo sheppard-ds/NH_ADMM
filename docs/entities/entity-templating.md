@@ -47,9 +47,8 @@ Some concepts are fundamental to our business and need a detailed explanation.
 ### Related entities and synonyms
 Some entities have strong relationships, for example;
 
-The `establishment` entity cannot exist without a `premises` entity. Where this occurs we will have models for each entity for you to explore.
-
-Some entities appear distinct but they are the same with different names.
+1.  The `establishment` entity cannot exist without a `premises` entity. Where this occurs we will have models for each entity for you to explore.
+2.  Some entities appear distinct but they are the same with different names.
 
 Related entities and synonyms for entities are presented separately.
 
