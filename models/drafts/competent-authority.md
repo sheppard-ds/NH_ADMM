@@ -32,6 +32,7 @@ This Enterprise Date Model is not intended to provide a total description of the
 ## Properties, identifiers and reference data
 
 ### Key properties
+
 *   CA Reference (URI from registry to be used - see reference data below)
 *   CA Official Name - label
 
@@ -48,3 +49,6 @@ link to [Competent Authority register](https://data.food.gov.uk/codes/reference-
 ## External sources and further reading
 
 (**DN - Consider ref to - 'The use of Competent Authority Identifiers in FSA datasets' document**)
+
+Further reading may include links to policy or legislative documentation that was used as the basis for defining the model.)
+consider ref to CA doc
