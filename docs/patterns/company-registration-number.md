@@ -1,3 +1,12 @@
+---
+layout: default
+title: Company Registration Number
+nav_order: 1
+has_children: false
+parent: Patterns
+categories: pattern
+---
+
 # Company Registration Number
 
 This pattern was last updated **19/02/2020**, this is version **1.0**
