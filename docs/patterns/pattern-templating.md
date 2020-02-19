@@ -59,7 +59,7 @@ These patterns are not designed to supersede or replace any in the FSA pattern l
 ## Last updated, version and status
 Our patterns start with the date they were last updated and the version number. Stable patterns are numbered incrementally from 1.0, and experimental patterns incrementally from 0.0.
 
-> This entity was last updated on **01/01/2020**. This is version **1.0**
+> This pattern was last updated on **01/01/2020**. This is version **1.0**
 
 We indicate if the pattern is experimental or stable. Sometimes a pattern needs significant drafting and discussion before we nail it down (looking at you address pattern), and we would like to do that in the open to encourage collaboration.
 
