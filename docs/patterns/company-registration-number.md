@@ -20,7 +20,7 @@ Stable
 
 A Company Reference Number is the identifier assigned to companies which are registered with [Companies House](https://www.gov.uk/government/organisations/companies-house).
 
-At the FSA, it is most frequently used as a property of `operator`, when the operator is a limited company.
+At the FSA, it is most frequently used as a property of [operator](https://foodstandardsagency.github.io/enterprise-data-models/entities/operator.html), when the operator is a limited company.
 
 ## Field formats, data types, and patterns
 
