@@ -11,10 +11,12 @@ categories: pattern
 
 This pattern was last updated **19/02/2020**, this is version **1.0**
 
-Pattern Created: 18/02/2020
-
 Stable
 {: .label .label-green }
+
+###Pattern created
+
+18/02/2020
 
 ## Description
 
