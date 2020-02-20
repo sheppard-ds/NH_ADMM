@@ -38,9 +38,6 @@ Often the CPHN will be provided as an alphanumeric string, in the format `01/234
 ### Notes
 Sometimes a CPHN can include a herd number, which is an additional two digits after the holding number, we do not use these.
 
-### Additional information
-[https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock](https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock)
-
 ### SQL snippet
 ```sql
 CREATE TABLE "CountyParishHolding" (
@@ -49,3 +46,6 @@ CREATE TABLE "CountyParishHolding" (
   "cph_holding" NUMERIC(4) NOT NULL
 );
 ```
+
+### Additional information
+[https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock](https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock)
