@@ -13,8 +13,11 @@ This model was last updated on **19/02/2020**, this is version **0.2**
 Experimental
 {: .label .label-yellow }
 
+### Model created
+10/02/2020
+
 ## Description
-Establishments are the central unit of enrolment within food and feed related legisation.
+Establishments are the central unit of enrolment within food and feed related legislation.
 
 An Establishment is a combination of two child entities; [Premises](/enterprise-data-models/entities/premises.md) and [Operator](/enterprise-data-models/entities/operator.md). A change in either of these gives rise to a different establishment.
 

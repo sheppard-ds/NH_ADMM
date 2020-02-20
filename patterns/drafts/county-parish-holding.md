@@ -11,9 +11,9 @@ In the FSA it exists solely for the purposes of linking with data from external 
 
 ### Data type and pattern
 When working with the CPHN in the FSA our preferred pattern to split the CPHN in to three separate fields;
-1. A numeric field of two digits in the format `00`, this is the number associated with a county
-2. A numeric field of three digits in the format `000`, this is the number associated with a parish
-3. A numeric field of four digits in the format `0000`, this is the number associated with a holding
+1. A numeric field of two digits in the format `00`, this is the number associated with a county, with the field name `cph_county`.
+2. A numeric field of three digits in the format `000`, this is the number associated with a parish, with the field name `cph_parish`.
+3. A numeric field of four digits in the format `0000`, this is the number associated with a holding, with the field name `cph_holding`.
 
 Often the CPHN will be provided as an alphanumeric string, in the format `01/234/5678`. This will need to be parsed to be stored correctly.
 
