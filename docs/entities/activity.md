@@ -1,10 +1,13 @@
 ---
 layout: default
 title: Activity
-nav_order: xx
+nav_order: 1
 has_children: false
+parent: Entities
+categories: entity
 ---
 
+# Activity
 This model was last updated on **20/02/2020**, this is version **0.3**
 
 Experimental
