@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Company Parish Holding
+title: County Parish Holding
 nav_order: 2
 has_children: false
 parent: Patterns
