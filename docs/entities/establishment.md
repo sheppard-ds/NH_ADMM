@@ -26,7 +26,7 @@ Other changes, such as changes in establishment type or the mix of activities re
 As of this version, this implementation of establishment exists only within the Unified View service, but our architectural approach is to converge on this definition over time in other services too.
 
 ### Related entities
-`Premises` and `Operator` are both child entities of Establishment.
+[Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html) are both child entities of Establishment.
 
 ### Synonyms
 *   Approved establishment
@@ -36,10 +36,10 @@ As of this version, this implementation of establishment exists only within the 
 ### What it is not
 An establishment is only an establishment if it is related to food or feed.
 
-`Premises` are often confused for establishment. When developing services we should be sure to make it clear that this is not the case.
+[Premises](/enterprise-data-models/entities/premises.html) is often confused for establishment. When developing services we should be sure to make it clear that this is not the case.
 
 ## Key properties
-The key properties are the entities `Premises` and `Operator`, please see the definition for these entities.
+The key properties are the entities [Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html), please see the definition for these entities.
 
 In addition, the establishment entity should identify the specific combination of these two child entities using a [unique reference number](#unique-identifiers).
 
