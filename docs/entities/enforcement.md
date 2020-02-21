@@ -18,7 +18,7 @@ Experimental
 ## Description
 Enforcement is the term for the available actions to a `Competent Authority` to make establishments obey food or feed law, regulations, or policy which falls within a `scheme`.
 
-some examples include making the establishment change the way they operate in order to comply or removing the ability for the establishment to carry out activities until the changes are made.  This can also take the form of litigation, removal of services, suspension of licensing and fines.
+some examples include making the establishment change the way they operate in order to comply or removing the ability for the establishment to carry out activities until the changes are made.  This can also take the form of litigation, removal of services, suspension of licensing, and fines.
 
 ### Related entities
 Enforcement is part of a `scheme`. It represents the actions available to the `Competent Authorities` who own or run the scheme. Often, the available enforcement actions under the scope of a scheme will be laid out in the legislation or policy documentation.
@@ -53,6 +53,6 @@ The identifier of the `Competent Authority` that undertook the enforcement, beca
 Where possible, lists of enforcements should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
 ### Reference data
-[Enforcement Actions](https://data.food.gov.uk/codes/enforcement-monitoring/_enforcement-actions)
+*   [Enforcement Actions](https://data.food.gov.uk/codes/enforcement-monitoring/_enforcement-actions)
 
 ## External sources and further reading
