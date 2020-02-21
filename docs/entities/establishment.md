@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Establishment
-nav_order: 2
+nav_order: 3
 has_children: false
 parent: Entities
 categories: entity
@@ -19,7 +19,7 @@ Experimental
 ## Description
 Establishments are the central unit of enrolment within food and feed related legislation.
 
-An Establishment is a combination of two child entities; [Premises](/enterprise-data-models/entities/premises.md) and [Operator](/enterprise-data-models/entities/operator.md). A change in either of these gives rise to a different establishment.
+An Establishment is a combination of two entities; [Premises](/enterprise-data-models/entities/premises.md) and [Operator](/enterprise-data-models/entities/operator.md). A change in either of these gives rise to a different establishment.
 
 Other changes, such as changes in establishment type or the mix of activities requiring registration or approval which it undertakes, do not create a new establishment, only modify an existing one.
 
