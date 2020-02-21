@@ -79,6 +79,9 @@ Here we try to describe what the pattern is and why it exists. Some patterns rel
 ## Field formats, data types, and patterns
 In this section we specifically provide the information needed to correctly store the data for the pattern. This can range from instructing a data type or field length, to providing templates for properly splitting a complex reference number into constituent fields.
 
+### SQL snippet
+Where possible, we will provide a SQL snippet for users to get up and running quickly with our patterns.
+
 ## Notes, references, and further reading
 Where others have developed good quality patterns which are open, we don't think twice about using them ourselves. It makes sense to re-use the work of others across government, this is where we will link out to those patterns. When using other patterns, the two preceding sections will be as small as possible and a link to the external pattern provided. Not everyone has all day to read this stuff.
 
