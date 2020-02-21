@@ -48,4 +48,4 @@ CREATE TABLE "CountyParishHolding" (
 ```
 
 ### Additional information
-[https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock](https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock)
+*   [gov.uk guidance on County Parish Holdings](https://www.gov.uk/guidance/register-land-you-use-to-keep-livestock)

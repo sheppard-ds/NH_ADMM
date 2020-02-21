@@ -7,7 +7,7 @@ parent: Entities
 categories: entity
 ---
 # Enforcement
-This model was last updated on **20/02/2020**, this is version **0.1**
+This model was last updated on **20/02/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
