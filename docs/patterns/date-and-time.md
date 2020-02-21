@@ -39,7 +39,7 @@ The format for recording date and time is `<date>T<time>Z`, where `<date>` is fo
 
 The separating `T` character and suffix `Z` character are required in all cases where time and date are recorded.
 
-For example, 1301 on the 1 January 2020 is formatted as; `2020-01-01T13:01:00Z` or `2020-01-01T13:01:00.000Z`
+For example, 13:01 on the 1 January 2020 is formatted as; `2020-01-01T13:01:00Z` or `2020-01-01T13:01:00.000Z`
 
 We may not always receive date and time data from third-parties to ISO 8601 standards. Where possible we must specify this standard as part of any data sharing agreement or contractual arrangements. Where this is not possible, we must validate dates and convert to the standard as part of ingestion.
 
