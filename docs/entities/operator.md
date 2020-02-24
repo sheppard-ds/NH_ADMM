@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Operator
-nav_order: 3
+nav_order: 4
 has_children: false
 parent: Entities
 categories: entity
@@ -58,7 +58,3 @@ Operators can have a different address to the premises with which they are assoc
 
 ### Unique identifiers
 When the Operator is a limited company, we should include the `Company Reference Number` or `Charity Commission Number` from Companies House or the Charity Commission respectively in order to link to richer sources of data about the company and improve interoperability.
-
-### Reference data
-
-## External sources and further reading
