@@ -12,23 +12,23 @@ Experimental
 
 # address-uk
 
-This pattern was last updated 04/02/2020, this is version 0.3
+This pattern was last updated 24/02/2020, this is version 0.4
 
 Pattern Created: 24/01/2020.  This pattern is experimental.
 
-(OS Places - Assumption?) Address matching using OS Places will return Delivery Point Addresses (DPA) sourced from Royal Mail, Local Authorities and Ordnance Survey data.  [Fields returned from DPA output](https://apidocs.os.uk/docs/os-places-dpa-output).  Address data is refreshed on a six week cycle known as an epoch eg epoch 73 was published on 30/01/2020 and contained changes up to 03/01/2020
+Address is mostly used in the FSA for premises information.
+
+It is recommended that an address matching service is used, where a postcode is used to search for the correct address.  Technical Design Authority will be able to advise on API to use. 
+
+(OS Places - Assumption?) Address matching using OS Places will return Delivery Point Addresses (DPA) sourced from Royal Mail, Local Authorities and Ordnance Survey data.  [DPA Fields returned from OS Places](https://apidocs.os.uk/docs/os-places-dpa-output) can be mapped to the address lines below.  Alternatively, a concatenated address containing the relevant address lines is also returned.
+
+OS Places address data is refreshed on a six week cycle known as an epoch, eg epoch 73 was published on 30/01/2020 and contained changes up to 03/01/2020.
 
 (**DN - happy to include the data fields here if appropriate but there is a risk it could become out of step**)
 
+### Display Format
 
-
-This pattern covers the standard UK address pattern.  For delivery of mail the minimum requirements would be the addressee, town or city and postcode.  A more detailed field for a Unique Property Reference Number may be added in future, see references for further information
-
-Address is mostly used in the FSA for premises information
-
-### Format
-
-The address consists of five lines as follows.  It is recommended that an address matching service is used, where a postcode is used to search for the correct address.  Technical Design Authority will be able to advise on API to use.  
+The display address consists of five lines as follows.  This pattern covers the standard UK address pattern.  For delivery of mail the minimum requirements would be the addressee, town or city and postcode.  A more detailed field for a Unique Property Reference Number may be added in future, see references for further information.   
 
 | Line No | Description  | Required |
 |:--------|:-------------|:---------|
@@ -39,7 +39,7 @@ The address consists of five lines as follows.  It is recommended that an addres
 | Line 5  | Postcode     | Required |
 
 #### Notes
--   **Lines 1 and 2** - Street names should not be abbreviated eg Road, Lane Street, Avenue should not be abbreviated to Rd, Ln, St or Ave.  (use of address matching service would cater for this).
+-   **Lines 1 and 2** - Street names should not be abbreviated eg Road, Lane, Street, Avenue should not be abbreviated to Rd, Ln, St or Ave.  (use of address matching service would cater for this).
 
 -   **Line 2** is used if there is additional street or locale information eg
 
@@ -67,8 +67,7 @@ In the example below, Lines 1 and 2 have been used for the house name and street
 
 ### References
 -   [Royal Mail - How to address mail](https://www.postoffice.co.uk/mail/how-to-address-mail)
--   []()
--   Premises Entity Model - to be added
+-   [Premises Entity Model](https://foodstandardsagency.github.io/enterprise-data-models/entities/premises.html)
 
 ### Further reading
 -   [UPRN numbers](https://www.ordnancesurvey.co.uk/business-government/tools-support/uprn)
