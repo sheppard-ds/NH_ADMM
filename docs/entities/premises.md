@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Premises
-nav_order: 6
+nav_order: 7
 has_children: false
 parent: Entities
 categories: entity
