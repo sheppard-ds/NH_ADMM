@@ -1,20 +1,25 @@
 ---
 layout: default
 title: Intervention
-nav_order:
-has_children: True
+nav_order: 4
+has_children: false
+parent: Entities
+categories: entity
 ---
+# Intervention
 
-This model was last updated on **10/02/2020**, this is version **0.1**
+This model was last updated on **25/02/2020**, this is version **0.2**
 
 Experimental
 {: .label .label-yellow }
 
-##### Model created
+### Model created
 10/02/2020
 
 ## Description
-Intervention is the term for the available actions to a `Competent Authority` to monitor and record compliance of an establishments to obey food or feed law, regulations, or policy which falls within a `scheme`.
+An `intervention` is used by a `Competent Authority` to monitor and record the compliance of an establishments within a `scheme`.
+
+Often, the available interventions under the scope of a scheme will be laid out in the legislation or policy documentation.
 
 Some examples of interventions include;
 *   Sampling visits
@@ -23,24 +28,24 @@ Some examples of interventions include;
 *   Advice and education visits
 *   Information/intelligence gathering
 
+As types of intervention are frequently common across schemes, i.e., an inspection, therefore it is important to try to use a common list of interventions and also record the scheme under which they were taken.
+
 ### Related entities
+Interventions form part of a `scheme`.
 
-Intervention is part of a `scheme`. It represents the actions available to the `Competent Authorities` who own or run the scheme. Often, the available interventions under the scope of a scheme will be laid out in the legislation or policy documentation.
+An intervention happens to an `establishment`, `premises`, `operator` or a `person` depending on the specific intervention action.
 
-An Intervention can happen to an `establishment`, `premises`, `operator` or a `person` depending on the specific intervention action.
-
-## Unique Identifiers
-Where possible, lists of interactions should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
-
-## What it is not
-An Intervention is not an `enforcement` although like an `enforcement` it forms part of the regulation of a scheme.  Neither is it an `activity`, but all are associated with a `scheme`.
-
-## Synonyms
+### Synonyms
 *   Audit
 *   Sampling
 *   Inspections
 *   Surveillance
 *   Educational visits
+
+### What it is not
+An Intervention is not an `enforcement` although like an `enforcement` it forms part of the regulation of a scheme.  Neither is it an `activity`, but all are associated with a `scheme`.
+
+## Properties, identifiers and reference data
 
 ## Key Properties
 *   The URI of the registry entry for the intervention action
@@ -59,10 +64,8 @@ It is important that the `start-date` of the enforcement is recorded as it can d
 
 A history of `interventions` and enforcements occurring within an `Establishment` will help build a picture and could impact on the severity of future enforcements by looking at the `establishments` history and looking for trends.
 
+### Unique Identifiers
+Where possible, lists of interactions should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.
 
-
-## Reference data
+### Reference data
 [Intervention Type](https://data.food.gov.uk/codes/enforcement-monitoring/_intervention-type)
-
-
-## Further Information
