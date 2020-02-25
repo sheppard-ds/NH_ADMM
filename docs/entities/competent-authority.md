@@ -6,6 +6,7 @@ has_children: false
 parent: Entities
 categories: entity
 ---
+# Competent Authority
 
 This entity was last updated on **20/02/2020**. This is version **0.3**
 
