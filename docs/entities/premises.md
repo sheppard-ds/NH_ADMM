@@ -43,4 +43,4 @@ There may be scenarios where recording the premises reference number from anothe
 There are a number of identifiers for premises, including the postal address. The preferred unique identifier for premises in the FSA is the [Unique Property Reference Number](https://www.ordnancesurvey.co.uk/business-government/tools-support/uprn).
 
 ## External sources and further reading
-Premises is also the [singular of premises](https://en.wikipedia.org/wiki/Premises), not premise. At some point you are going to be tempted to refer to it in this way, resist that temptation. :grin:
+Premises is also the [singular of premises](https://en.wikipedia.org/wiki/Premises), not premise. At some point you are going to be tempted to refer to it in this way, resist that temptation. 😁
