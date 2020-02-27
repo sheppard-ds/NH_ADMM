@@ -37,6 +37,6 @@ Inspections are the examination of any aspect of food or of a food business in o
 
 ### Reference data
 
-[Intervention types](https://data.food.gov.uk/codes/enforcement-monitoring/intervention-type/_OC-IA-I)
-[Manual of Official Controls](https://foodgov.sharepoint.com/sites/fsaext/MoC/MOC/Home%20page.pdf?csf=1&e=CEiKWe&cid=fd071568-456e-4d16-9251-ef110adc6701) - Needs to be accessed via Windows Explorer browser
+*   [Intervention types](https://data.food.gov.uk/codes/enforcement-monitoring/intervention-type/_OC-IA-I)
+*   [Manual of Official Controls](https://foodgov.sharepoint.com/sites/fsaext/MoC/MOC/Home%20page.pdf?csf=1&e=CEiKWe&cid=fd071568-456e-4d16-9251-ef110adc6701) - Needs to be accessed via Windows Explorer browser
 ## External sources and further reading
