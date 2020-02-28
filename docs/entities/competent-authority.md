@@ -17,12 +17,12 @@ Experimental
 09/01/2020
 
 ## Description
-A Competent Authority is a body with regulatory or supervisory oversight of a `scheme`.
+A Competent Authority is a body with regulatory or supervisory oversight of a [scheme](/enterprise-data-models/entities/scheme.html).
 
 Competent Authorities deliver food and feed official controls. The FSA is the Central Competent Authority responsible for oversight and assurance that the food and feed regulatory system is effective.
 
 ### Related entities
-A `scheme` is owned and delivered by Competent Authorities, however schemes may be owned and delivered by different competent authorities i.e., FHRS.
+A [scheme](/enterprise-data-models/entities/scheme.html) is owned and delivered by Competent Authorities, however schemes may be owned and delivered by different competent authorities i.e., FHRS.
 
 ### Synonyms
 *   Local Authority

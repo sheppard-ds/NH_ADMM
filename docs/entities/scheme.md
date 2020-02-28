@@ -20,16 +20,16 @@ Experimental
 ## Description
 A scheme is a way of classifying a piece of regulation, legislation, or policy that grants powers to and/or imposes obligations on those who are enrolled in it.
 
-Schemes commonly occur within a single domain or sub-domain in order to bind the context of the actions available to the scheme. For example, the `Approved Establishments Scheme` has a scope which is laid out by the piece of legislation that creates the scheme, which for now is [Regulation (EC) 853/2004](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:139:0055:0205:EN:PDF).
+Schemes commonly occur within a single domain or sub-domain in order to bind the context of the actions available to the scheme. For example, the [Approved Establishments Scheme](https://www.food.gov.uk/business-guidance/approved-food-establishments) has a scope which is laid out by the piece of legislation that creates the scheme, which for now is [Regulation (EC) 853/2004](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:139:0055:0205:EN:PDF).
 
 ### Related entities
-A scheme has one or more `activities`, `interventions` or `enforcements` associated with it. Every one of these actions must be associated with a scheme, but the same action can appear in multiple schemes.
+A scheme has one or more [activities](/enterprise-data-models/entities/activity.html), [interventions](/enterprise-data-models/entities/intervention.html) or [enforcements](/enterprise-data-models/entities/enforcement.html) associated with it. Every one of these actions must be associated with a scheme, but the same action can appear in multiple schemes.
 
-An `establishment` is enrolled in a scheme, not the individual premises or operator, although in some existing services the enrolment is associated with one of those entities.
+An [establishment](/enterprise-data-models/entities/establishment.html) is enrolled in a scheme, not the individual premises or operator, although in some existing services the enrolment is associated with one of those entities.
 
 An establishment can be enrolled in multiple schemes.
 
-Schemes can be owned, managed or carried out by multiple `Competent Authorities`. For example FHRS is owned by the FSA but carried out by Local Authorities.
+Schemes are owned, managed, or carried out by [Competent Authorities](/enterprise-data-models/entities/competent-authority.html). For example FHRS is owned by the FSA but carried out by Local Authorities.
 
 ### Synonyms
 *   Policy

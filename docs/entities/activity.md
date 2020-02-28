@@ -17,7 +17,7 @@ Experimental
 07/01/2020
 
 ## Description
-An activity is an action or power granted to food or feed businesses through registration, approval, or compliance with a specific regulatory `scheme`.
+An activity is an action or power granted to food or feed businesses through registration, approval, or compliance with a specific regulatory [scheme](/enterprise-data-models/entities/scheme.html).
 
 Examples activities include;
 
@@ -25,11 +25,11 @@ Examples activities include;
 *   The list of activities which fall under the regulations for [animal feed](https://data.food.gov.uk/codes/business/animal-feed-establishments/_feed-activities)
 
 ### Related entities
-All activities belong to a `scheme`, but a `scheme` is not the parent entity as they do not share a set of key properties.
+All activities belong to a [scheme](/enterprise-data-models/entities/scheme.html), but a [scheme](/enterprise-data-models/entities/scheme.html) is not the parent entity as they do not share a set of key properties.
 
 Activities should be joined to an [establishment](/enterprise-data-models/entities/establishment.html), not the [premises](/enterprise-data-models/entities/premises.html).
 
-An [establishment](/enterprise-data-models/entities/establishment.html) which undertakes activities does so under a `scheme` which grants them approval to do them or registers them as doing them. The combination of [establishment](/enterprise-data-models/entities/establishment.html) and `scheme` is known as an `enrolment`.
+An [establishment](/enterprise-data-models/entities/establishment.html) which undertakes activities does so under a [scheme](/enterprise-data-models/entities/scheme.html) which grants them approval to do them or registers them as doing them. The combination of [establishment](/enterprise-data-models/entities/establishment.html) and [scheme](/enterprise-data-models/entities/scheme.html) is known as an `enrolment`.
 
 ## Synonyms
 *   Approved activity
@@ -37,14 +37,14 @@ An [establishment](/enterprise-data-models/entities/establishment.html) which un
 *   Registered activity
 
 ## What it is not
-An activity is not an action which forms part of the regulatory environment that monitors or enforces compliance. Those entities are [enforcement](/enterprise-data-models/entities/enforcement.html) and `intervention`.
+An activity is not an action which forms part of the regulatory environment that monitors or enforces compliance. Those entities are [enforcement](/enterprise-data-models/entities/enforcement.html) and [intervention](/enterprise-data-models/entities/intervention.html).
 
 ## Properties, identifiers and reference data
 
 ## Key properties
 As we develop services around domains with recognised activities, they will be modelled as registers within the scope of a scheme and a code list created. In these instances it is important to use the code of the activity in your implementation.
 
-For best practice handling of code lists in services, please see our `code list pattern`.
+For best practice handling of code lists in services, please see our `code list pattern`. (coming soon)
 
 ## Contextual properties
 When implementing the activity entity in a service, you will need to record the time period during which the activity is effective for against the establishment it is associated with.

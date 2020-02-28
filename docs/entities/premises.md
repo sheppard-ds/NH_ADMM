@@ -17,7 +17,7 @@ Experimental
 13/01/2020
 
 ## Description
-Premises is a fundamental concept related to food businesses. All food businesses have a premises, either a location from where they trade or the location where the business is registered with the FSA or other `competent authorities`.
+Premises is a fundamental concept related to food businesses. All food businesses have a premises, either a location from where they trade or the location where the business is registered with the FSA or other Competent Authorities.
 
 ### Related entities
 [Establishment](/enterprise-data-models/entities/establishment.html) is a parent entity of premises, but not all premises will relate to an establishment.

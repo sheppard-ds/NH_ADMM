@@ -5,13 +5,7 @@ nav_order: 2
 has_children: false
 categories: templating
 ---
----
-layout: default
-title: Entity Templating
-nav_order: 2
-has_children: false
-categories: templating
----
+
 # Entity Templating
 We template entities , but not all entities use all properties.
 
@@ -47,7 +41,7 @@ Some concepts are fundamental to our business and need a detailed explanation.
 ### Related entities and synonyms
 Some entities have strong relationships, for example;
 
-1.  The `establishment` entity cannot exist without a `premises` entity. Where this occurs we will have models for each entity for you to explore.
+1.  The [establishment](/enterprise-data-models/entities/establishment.html)) entity cannot exist without a [premises](/enterprise-data-models/entities/premises.html) entity. Where this occurs we will have models for each entity for you to explore.
 2.  Some entities appear distinct but they are the same with different names.
 
 Related entities and synonyms for entities are presented separately.
