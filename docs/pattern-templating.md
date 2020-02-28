@@ -3,7 +3,7 @@ layout: default
 title: Pattern Templating
 nav_order: 3
 has_children: false
-parent: index
+parent: Home
 categories: templating
 ---
 
