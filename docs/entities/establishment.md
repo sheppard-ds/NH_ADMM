@@ -28,6 +28,9 @@ As of this version, this implementation of establishment exists only within the 
 ### Related entities
 [Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html) are both child entities of Establishment.
 
+### Entity diagram
+![establishment](/enterprise-data-models/entities/diagrams/Establishment.png)
+
 ### Synonyms
 *   Approved establishment
 *   Registered establishment
