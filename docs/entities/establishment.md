@@ -8,7 +8,7 @@ categories: entity
 ---
 
 # Establishment
-This model was last updated on **19/02/2020**, this is version **0.2**
+This model was last updated on **02/03/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
@@ -27,6 +27,8 @@ As of this version, this implementation of establishment exists only within the 
 
 ### Related entities
 [Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html) are both child entities of Establishment.
+
+Establishments are enrolled in [schemes](/enterprise-data-models/entities/scheme.html), which means they can carry out [activities](/enterprise-data-models/entities/activity.html), and/or are subject to [interventions](/enterprise-data-models/entities/intervention.html) and [enforcements](/enterprise-data-models/entities/enforcment.html).
 
 ### Entity diagram
 ![establishment](/enterprise-data-models/entities/diagrams/Establishment.png)
