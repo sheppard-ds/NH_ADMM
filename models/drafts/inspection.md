@@ -33,7 +33,9 @@ Types of inspection are listed in related entities
 
 ### Synonyms
 
-*   Intervention
+*   Activity
+*   Checks
+*   Compliance
 
 ### What it is not
 
