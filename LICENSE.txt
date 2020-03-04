@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+we also use Open Government License (OGL) version 3.0
+
+There is no plain-text version of this license, however it can be viewed online at:
+
+[OGL](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+
