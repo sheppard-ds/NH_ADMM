@@ -46,7 +46,7 @@ Types of inspection are listed in related entities
 *   Inspector name
 *   Inspection Reference - see unique identifiers
 *   Date of inspection
-*   DN - Do inspection cover more than one day - may need to amend to From with an optional To
+*   DN - Do inspections cover more than one day - may need to amend to From with an optional To
 
 ### Contextual properties
 
