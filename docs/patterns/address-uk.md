@@ -93,21 +93,21 @@ The simple format is how an address should be stored within a database for proto
 | Field Name | Description  | Required | Can be NULL |
 |:-----------|:-------------|:---------|:------------|
 | UPRN | The UPRN is the unique property reference number for an address, more information can be found in the UPRN pattern | No | Yes |
-| Building name | The name of a building | Yes | Yes |
-| Building number | The number of a building | Yes | Yes |
+| Building Name | The name of a building | Yes | Yes |
+| Building Number | The number of a building | Yes | Yes |
 | Dependent Thoroughfare | A dependent thoroughfare, are named thoroughfares within another named thoroughfare. | No | Yes |
 | Thoroughfare | A thoroughfare is the name of the road/ street/ etc used within the address | Yes | No |
 | Post Town | The town or the city within the address | Yes | No |
-| Dependent locality | A dependent locality defined an area within a post town i.e. Shirley, Southampton where Shirley is the dependent locality, and Southampton is the post town | No | Yes |
-| postcode | The postcode for an address | Yes | Yes |
+| Dependent Locality | A dependent locality defined an area within a post town i.e. Shirley, Southampton where Shirley is the dependent locality, and Southampton is the post town | No | Yes |
+| Post Code | The postcode for an address | Yes | Yes |
 
 #### Notes
-The fields used above are directly taken from the Delivery point address dataset within Addressbase, which is the data behind most address matching services which include UPRN data. These are the minimum fields which need to be captured in order to store an address in a machine readable format.
+**While building name and building number can be NULL, they cannot both be NULL.**
 
-**While building name and building number can be NULL, they cannot both be NULL**
+These fields are taken from the delivery point address dataset within [OS Addressbase](https://www.ordnancesurvey.co.uk/business-government/products/addressbase). It is the data behind most address matching services which include UPRN data. These are the minimum fields which need to be captured in order to store an address to our standards.
 
 #### SQL
-the SQL to generate the simple pattern can be found here. this SQL has been written for postgres so conversion may be necessary to another format:
+This SQL will generate the simple pattern, it has been written for Postgres so conversion may be necessary for other databases.
 
 ```
 CREATE TABLE IF NOT EXISTS simple
@@ -124,11 +124,10 @@ CREATE TABLE IF NOT EXISTS simple
 ```
 
 ### Extended Format
-
-The extended pattern for an address is the complete list of fields used within the AddressBase delivery point address dataset. A full list can be found in the [AddressBase technical specification here](https://www.ordnancesurvey.co.uk/documents/addressbase-technical-specification.pdf) The field list starts on page 11 and continues to page 17.
+The extended pattern for an address is the complete list of fields used within the AddressBase delivery point address dataset. A full list can be found in the [AddressBase technical specification.](https://www.ordnancesurvey.co.uk/documents/addressbase-technical-specification.pdf) The field list starts on page 11 and continues to page 17.
 
 #### SQL
-the SQL to generate the extended pattern can be found here. this SQL has been written for Postgres so conversion may be necessary to another format.
+This SQL will generate the extended pattern, it has been written for Postgres so conversion may be necessary for other databases.
 
 ```
 CREATE TABLE IF NOT EXISTS deliverypointaddress
