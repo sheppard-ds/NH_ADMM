@@ -109,7 +109,7 @@ These fields are taken from the delivery point address dataset within [OS Addres
 #### SQL
 This SQL will generate the simple pattern, it has been written for Postgres so conversion may be necessary for other databases.
 
-```
+```sql
 CREATE TABLE IF NOT EXISTS simple
 (
   UPRN                                 FLOAT8,
@@ -129,7 +129,7 @@ The extended pattern for an address is the complete list of fields used within t
 #### SQL
 This SQL will generate the extended pattern, it has been written for Postgres so conversion may be necessary for other databases.
 
-```
+```sql
 CREATE TABLE IF NOT EXISTS deliverypointaddress
 (
   RECORD_IDENTIFIER                   INTEGER,
