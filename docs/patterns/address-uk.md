@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Address
-nav_order: xx
+title: Address (UK)
+nav_order: 1
 has_children: false
+parent: Patterns
+categories: pattern
 ---
 
 # Address data (UK)
