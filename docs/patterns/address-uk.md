@@ -59,32 +59,32 @@ The display address consists of five lines as follows.  This pattern covers the 
 | Line 5  | Postcode     | Required | No |
 
 #### Notes
--   **Lines 1 and 2** - Street names should not be abbreviated eg Road, Lane, Street, Avenue should not be abbreviated to Rd, Ln, St or Ave.  (use of address matching service would cater for this).
+**Lines 1 and 2** - Street names should not be abbreviated eg Road, Lane, Street, Avenue should not be abbreviated to Rd, Ln, St or Ave.  (use of address matching service would cater for this).
 
--   **Line 2** is used if there is additional street or locale information eg
+**Line 2** is used if there is additional street or locale information eg
 
-    Flat 3\
-    15 Sycamore Avenue
+>Flat 3  
+>15 Sycamore Avenue  
 
-    or
+or
 
-    Heron House\
-    345 London Road
+>Heron House  
+>345 London Road  
 
--   **Line 3** is used for the town or city (or locale, see example below), regardless of whether Line 2 has been populated.
+**Line 3** is used for the town or city (or locale, see example below), regardless of whether Line 2 has been populated.
 In the example below, Lines 1 and 2 have been used for the house name and street, followed by a locale on line 3, with the Town or City on line 4
 
->Red Bank Farm\
->    The Shore\
->    Bolton Le Sands\
->    CARNFORTH\
->    LA5 8JR
+>Red Bank Farm  
+>The Shore  
+>Bolton Le Sands  
+>CARNFORTH  
+>LA5 8JR  
 
--   **Line 4** - is used for the County, however, it is not actually required for mail delivery but is commonly included as part of the address.  Gov.uk shows line 4 as County in their [address pattern](https://design-system.service.gov.uk/patterns/addresses/).
+**Line 4** - is used for the County, however, it is not actually required for mail delivery but is commonly included as part of the address.  Gov.uk shows line 4 as County in their [address pattern](https://design-system.service.gov.uk/patterns/addresses/).
 
-    It is possible for County to be missing from an address.
+It is possible for County to be missing from an address.
 
--   **Minimum requirements** are that lines 1, 3 and 5 are populated.
+Our minimum requirements are that lines 1, 3 and 5 are populated.
 
 ### Simple Format
 
