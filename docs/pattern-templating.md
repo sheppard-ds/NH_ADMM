@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Pattern Templating
-nav_order: 2
+nav_order: 3
 has_children: false
+parent: Home
 categories: templating
 ---
 
@@ -59,7 +60,7 @@ These patterns are not designed to supersede or replace any in the FSA pattern l
 ## Last updated, version and status
 Our patterns start with the date they were last updated and the version number. Stable patterns are numbered incrementally from 1.0, and experimental patterns incrementally from 0.0.
 
-> This entity was last updated on **01/01/2020**. This is version **1.0**
+> This pattern was last updated on **01/01/2020**. This is version **1.0**
 
 We indicate if the pattern is experimental or stable. Sometimes a pattern needs significant drafting and discussion before we nail it down (looking at you address pattern), and we would like to do that in the open to encourage collaboration.
 
@@ -78,6 +79,9 @@ Here we try to describe what the pattern is and why it exists. Some patterns rel
 
 ## Field formats, data types, and patterns
 In this section we specifically provide the information needed to correctly store the data for the pattern. This can range from instructing a data type or field length, to providing templates for properly splitting a complex reference number into constituent fields.
+
+### SQL snippet
+Where possible, we will provide a SQL snippet for users to get up and running quickly with our patterns.
 
 ## Notes, references, and further reading
 Where others have developed good quality patterns which are open, we don't think twice about using them ourselves. It makes sense to re-use the work of others across government, this is where we will link out to those patterns. When using other patterns, the two preceding sections will be as small as possible and a link to the external pattern provided. Not everyone has all day to read this stuff.

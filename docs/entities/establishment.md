@@ -1,29 +1,37 @@
 ---
 layout: default
 title: Establishment
-nav_order: 1
-has_children: true
+nav_order: 4
+has_children: false
 parent: Entities
 categories: entity
 ---
 
 # Establishment
-This model was last updated on **12/02/2020**, this is version **0.2**
+This model was last updated on **02/03/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
 
-## Description
-Establishments are the central unit of enrolment within food and feed related legisation.
+### Model created
+10/02/2020
 
-An Establishment is a combination of two child entities; `Premises` and `Operator`. A change in either of these gives rise to a different establishment.
+## Description
+Establishments are the central unit of enrolment within food and feed related legislation.
+
+An Establishment is a combination of two entities; [Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html). A change in either of these gives rise to a different establishment.
 
 Other changes, such as changes in establishment type or the mix of activities requiring registration or approval which it undertakes, do not create a new establishment, only modify an existing one.
 
 As of this version, this implementation of establishment exists only within the Unified View service, but our architectural approach is to converge on this definition over time in other services too.
 
 ### Related entities
-`Premises` and `Operator` are both child entities of Establishment.
+[Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html) are both child entities of Establishment.
+
+Establishments are enrolled in [schemes](/enterprise-data-models/entities/scheme.html), which means they can carry out [activities](/enterprise-data-models/entities/activity.html), and/or are subject to [interventions](/enterprise-data-models/entities/intervention.html) and [enforcements](/enterprise-data-models/entities/enforcment.html).
+
+### Entity diagram
+![establishment](/enterprise-data-models/entities/diagrams/Establishment.png)
 
 ### Synonyms
 *   Approved establishment
@@ -33,17 +41,17 @@ As of this version, this implementation of establishment exists only within the 
 ### What it is not
 An establishment is only an establishment if it is related to food or feed.
 
-`Premises` are often confused for establishment. When developing services we should be sure to make it clear that this is not the case.
+[Premises](/enterprise-data-models/entities/premises.html) is often confused for establishment. When developing services we should be sure to make it clear that this is not the case.
 
 ## Key properties
-The key properties are the entities `Premises` and `Operator`, please see the definition for these entities.
+The key properties are the entities [Premises](/enterprise-data-models/entities/premises.html) and [Operator](/enterprise-data-models/entities/operator.html), please see the definition for these entities.
 
 In addition, the establishment entity should identify the specific combination of these two child entities using a [unique reference number](#unique-identifiers).
 
 ## Contextual properties
 Approved establishments are approved to undertake specific activities laid out in legislation, please see the [approved activities code list](https://data.food.gov.uk/codes/business/approved-food-establishments/_activities).
 
-Approved establishments are also identified in the system that handles approvals by their `Approval Number`. 
+Approved establishments are also identified in the system that handles approvals by their `Plant Approval Number`.
 
 Registered establishments and some approved activities are handled by other [competent authorities](https://data.food.gov.uk/codes/reference-number/_authority).
 

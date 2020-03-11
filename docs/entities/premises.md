@@ -1,15 +1,14 @@
 ---
 layout: default
 title: Premises
-nav_order: 2
+nav_order: 7
 has_children: false
-parent: Establishment
-grandparent: Entities
+parent: Entities
 categories: entity
 ---
 
 # Premises
-This model was last updated on **13/02/2020**, this is version **0.2**
+This model was last updated on **21/02/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
@@ -18,12 +17,12 @@ Experimental
 13/01/2020
 
 ## Description
-Premises is a fundamental concept related to food businesses. All food businesses have a premises, either a location from where they trade or the location where the business is registered with the FSA or other `competent authorities`.
+Premises is a fundamental concept related to food businesses. All food businesses have a premises, either a location from where they trade or the location where the business is registered with the FSA or other Competent Authorities.
 
 ### Related entities
-`Establishment` is a parent entity of Premises, but not all premises entities will be used in an establishment.
+[Establishment](/enterprise-data-models/entities/establishment.html) is a parent entity of premises, but not all premises will relate to an establishment.
 
-`Operator` is the sibling of Premises, and when they are combined create an `Establishment`, but not all operators are associated with a premises.
+[Operator](/enterprise-data-models/entities/operator.html) is the sibling of premises, and when they are combined create an establishment, but not all operators are associated with a premises.
 
 ### Synonyms
 -   Location
@@ -42,3 +41,6 @@ There may be scenarios where recording the premises reference number from anothe
 
 ### Unique Identifiers
 There are a number of identifiers for premises, including the postal address. The preferred unique identifier for premises in the FSA is the [Unique Property Reference Number](https://www.ordnancesurvey.co.uk/business-government/tools-support/uprn).
+
+## External sources and further reading
+Premises is also the [singular of premises](https://en.wikipedia.org/wiki/Premises), not premise. At some point you are going to be tempted to refer to it in this way, resist that temptation. 😁
