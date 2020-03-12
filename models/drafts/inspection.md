@@ -8,7 +8,7 @@ categories: entity
 ---
 
 # `Inspection`
-This model was last updated on **28/02/2020**, this is version **0.2**
+This model was last updated on **11/03/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
@@ -26,16 +26,19 @@ Types of inspection are listed in related entities
 ### Related entities
 -   Food chain Inspection (FCI)
 -   Ante-mortem Inspection
--   post-mortem Inspection
+-   Post-mortem Inspection
 -   UAI (Unannounced Inspection)
--   (add dairy Inspections)
--   (add wine Inspections)
+-   Raw Milk Sales
+-   Raw Milk Production
+-   Pre Production Inspection (milk)
+-   Rating Inspection (wine)
 
 ### Synonyms
 
 *   Activity
 *   Checks
 *   Compliance
+*   Intervention
 
 ### What it is not
 
@@ -45,20 +48,20 @@ Types of inspection are listed in related entities
 
 *   Inspector name
 *   Inspection Reference - see unique identifiers
-*   Date of inspection
-*   DN - Do inspections cover more than one day - may need to amend to From with an optional To
+*   Date of Inspection
 
 ### Contextual properties
 
 ### Unique identifiers
 
 Inspection reference - depends on the area of inspection but must be one of the following.  Please see individual data patterns for further information
--   [Plant Approval Number]()
--   [Dairy equivalent of above or verified other]()
--   [Wine equivalent reference or verified other]()
+-   [Plant Approval Number]() - meat and dairy
+-   [Producer ID]() - dairy
+-   [Wine Standards Board Reference]()
 
 ### Reference data
 
 *   [Intervention types](https://data.food.gov.uk/codes/enforcement-monitoring/intervention-type/_OC-IA-I)
 *   [Manual of Official Controls](https://www.food.gov.uk/business-guidance/manual-for-official-controls)
+
 ## External sources and further reading
