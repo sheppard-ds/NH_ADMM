@@ -8,7 +8,7 @@ categories: entity
 ---
 
 # `Inspection`
-This model was last updated on **11/03/2020**, this is version **0.3**
+This model was last updated on **13/03/2020**, this is version **0.3**
 
 Experimental
 {: .label .label-yellow }
@@ -19,11 +19,9 @@ Experimental
 
 ## Description
 
-Inspections are the examination of any aspect of food or of a food business in order to check that such aspect(s) comply with the legal requirements of food law.  
+Inspections are the examination of any aspect of food or of a food business in order to check that such aspect(s) comply with the legal requirements of food law.  Inspections are a type of `Intervention`.
 
-Types of inspection are listed in related entities
-
-### Related entities
+Types of inspection include the following
 -   Food chain Inspection (FCI)
 -   Ante-mortem Inspection
 -   Post-mortem Inspection
@@ -33,14 +31,23 @@ Types of inspection are listed in related entities
 -   Pre Production Inspection (milk)
 -   Rating Inspection (wine)
 
+### Related entities
+
+[Intervention]()
+
 ### Synonyms
 
 *   Activity
 *   Checks
 *   Compliance
 *   Intervention
+*   Monitoring
+*   Surveillance
+*   Verification
 
 ### What it is not
+
+An inspection is not an enforcement but could be the result of an enforcement.
 
 ## Properties, identifiers and reference data
 
@@ -52,12 +59,14 @@ Types of inspection are listed in related entities
 
 ### Contextual properties
 
+Other data properties pertinent to the area and type of inspection may be added to the core set of properties above
+
 ### Unique identifiers
 
 Inspection reference - depends on the area of inspection but must be one of the following.  Please see individual data patterns for further information
--   [Plant Approval Number]() - meat and dairy
--   [Producer ID]() - dairy
--   [Wine Standards Board Reference]()
+-   [Plant Approval Number - link to be added]() - meat.
+-   [Producer ID - link to be added]() - dairy.
+-   [Wine Standards Board Reference - link to be added]().
 
 ### Reference data
 
