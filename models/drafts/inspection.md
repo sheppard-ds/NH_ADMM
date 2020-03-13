@@ -33,7 +33,7 @@ Types of inspection include the following
 
 ### Related entities
 
-[Intervention]()
+[Intervention](docs/entities/intervention.md)
 
 ### Synonyms
 
