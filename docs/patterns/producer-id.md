@@ -9,10 +9,10 @@ categories: pattern
 
 # `Producer ID`
 
-This pattern was last updated **13/03/2020**, this is version **0.1**
+This pattern was last updated **17/03/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Pattern created
 
