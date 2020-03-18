@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Plant Approval Number
-nav_order: 6
+nav_order: 5
 has_children: false
 parent: Patterns
 categories: pattern
