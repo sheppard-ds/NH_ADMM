@@ -27,7 +27,7 @@ In the FSA it is used for the purposes of linking with data from external source
 -   Environment Agency
 -   Public Health England
 
-The County Parish Holding Number is the reference number used when communicating with Dairy Food Business Operators. The FSA allocated `Producer ID` associated with registered Dairy FBOs is only used internally.
+The County Parish Holding Number is the reference number used when communicating with Dairy Food Business Operators. The FSA allocated [Producer ID](/enterprise-data-models/patterns/producer-id.html) associated with registered Dairy FBOs is only used internally.
 
 ## Field formats, data types, and patterns
 When working with the CPHN in the FSA our preferred pattern to split the CPHN in to three separate fields;

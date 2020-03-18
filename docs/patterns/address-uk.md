@@ -7,7 +7,7 @@ parent: Patterns
 categories: pattern
 ---
 
-# Address data (UK)
+# Address (UK)
 
 This pattern was last updated 06/03/2020, this is version 0.6.
 
