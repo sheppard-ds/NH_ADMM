@@ -13,6 +13,8 @@ Stable
 
 ### Related entities
 
+### Entity relationship diagram
+
 ### Synonyms
 
 ### What it is not
