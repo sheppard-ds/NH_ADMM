@@ -1,3 +1,12 @@
+---
+layout: default
+title: Service Delivery Entity
+nav_order: 8
+has_children: false
+parent: Entities
+categories: entity
+---
+
 # `Service Delivery Entity`
 This model was last updated on **30/03/2020**, this is version **0.3**
 
@@ -49,5 +58,3 @@ The unique identifier for a Service Delivery Entity is the URI of it's registry 
 
 ### Reference data
 A register for this entity is currently in development.
-
-## External sources and further reading
