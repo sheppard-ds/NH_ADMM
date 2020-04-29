@@ -10,7 +10,7 @@ categories: pattern
 ---
 
 # Telephone Number
-This pattern was last updated 13/02/2020, this is version 1.0
+This pattern was last updated 29/04/2020, this is version 1.1
 
 Stable
 {: .label .label-green }
@@ -48,6 +48,7 @@ FSA use telephone numbers primarily to send alerts using the gov.uk Notify servi
 -   [UK telephone numbers](https://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom)
 -   [International Trunk Prefix](https://en.wikipedia.org/wiki/Trunk_prefix)
 -   [Gov.UK.Notify service](https://www.notifications.service.gov.uk/features)
+-   [Formatting international numbers using E.164](https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers)
 
 ### Further reading
 -   [GDS guidance re telephone numbers (currently experimental)](https://design-system.service.gov.uk/patterns/telephone-numbers/), this includes information on validation of telephone numbers
