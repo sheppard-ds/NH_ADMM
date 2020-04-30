@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welfare Reference Number
-nav_order: xx
+nav_order: 08
 has_children: false
 parent: Patterns
 categories: pattern
@@ -9,7 +9,7 @@ categories: pattern
 
 # Welfare Reference Number
 
-This pattern was last updated **29/04/2020**, this is version **0.1**
+This pattern was last updated **30/04/2020**, this is version **1.0**
 
 Stable
 {: .label .label-green }
