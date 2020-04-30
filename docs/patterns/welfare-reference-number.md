@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welfare Reference Number
-nav_order: 08
+nav_order: 8
 has_children: false
 parent: Patterns
 categories: pattern
