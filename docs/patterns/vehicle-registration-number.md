@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vehicle Registration Number
-nav_order: xx
+nav_order: 9
 has_children: false
 parent: Patterns
 categories: pattern
@@ -9,7 +9,7 @@ categories: pattern
 
 # `Vehicle Registration Number`
 
-This pattern was last updated **06/05/2020**, this is version **0.1**
+This pattern was last updated **06/05/2020**, this is version **1.0**
 
 Stable
 {: .label .label-green }
