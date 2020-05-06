@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Vehicle Registration Number
-nav_order: 9
+nav_order: 8
 has_children: false
 parent: Patterns
 categories: pattern
 ---
 
-# `Vehicle Registration Number`
+# Vehicle Registration Number
 
 This pattern was last updated **06/05/2020**, this is version **1.0**
 

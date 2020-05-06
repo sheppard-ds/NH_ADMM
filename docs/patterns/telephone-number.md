@@ -32,11 +32,11 @@ Telephone number should be stored as a string entry in a single field, in order 
 
 A field length of 20 would allow for the following examples plus other international variants and spaces (guidelines within E.146 - International Telephone Formats would restrict to 15 characters for international numbers, 3 for country code and 12 for subscriber number, with all spaces and special characters removed (excluding '+' symbol for country code)).
 
--   01xxx xxxxxx
--   01xx xxx xxxx
--   020 xxxx xxxx
--   01xx xx xxxxx
--   +44 xxxx xxxx xxxx
+-   `01xxx xxxxxx`
+-   `01xx xxx xxxx`
+-   `020 xxxx xxxx`
+-   `01xx xx xxxxx`
+-   `+44 xxxx xxxx xxxx`
 
 ## Notes
 
