@@ -25,7 +25,7 @@ Competent Authorities deliver food and feed official controls. The FSA is the Ce
 A [scheme](/enterprise-data-models/entities/scheme.html) is owned and delivered by Competent Authorities, however schemes may be owned and delivered by different competent authorities i.e., FHRS.
 
 ### Entity diagram
-[Competent Authority](docs/entities/diagrams/CompetentAuthority.png)
+![Competent Authority](docs/entities/diagrams/CompetentAuthority.png)
 
 ### Synonyms
 *   Local Authority
