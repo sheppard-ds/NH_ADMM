@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wine Standards Board Reference Number
-nav_order: 8
+nav_order: 10
 has_children: false
 parent: Patterns
 categories: pattern
@@ -9,7 +9,7 @@ categories: pattern
 
 # `Wine Standards Board Reference Number`
 
-This pattern was last updated **22/05/2020**, this is version **0.2**
+This pattern was last updated **22/05/2020**, this is version **1.0**
 
 Stable
 {: .label .label-green }
