@@ -26,6 +26,9 @@ We also use them to represent the geographical areas covered by FSA service area
 ### Related entities
 Service Delivery Areas are associated with a Competent Authority, either directly, or through a Service Delivery Entity.
 
+### Entity diagram
+![SDA](/enterprise-data-models/entities/diagrams/sda.png)
+
 ### Synonyms
 -   Operational area
 
