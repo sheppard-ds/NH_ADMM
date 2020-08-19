@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Service Delivery Entity
+title: Service Delivery Organisation
 nav_order: 10
 has_children: false
 parent: Entities
 categories: entity
 ---
 
-# `Service Delivery Entity`
-This model was last updated on **30/03/2020**, this is version **0.3**
+# Service Delivery Organisation
+This model was last updated on **18/05/2020**, this is version **0.4**
 
 Experimental
 {: .label .label-yellow }
@@ -17,7 +17,7 @@ Experimental
 08/03/2020
 
 ## Description
-A Service Delivery Entity is designed to bridge the gap between what is legislatively correct the organisation(s) that deliver official controls or other schemes. It has been created for the purpose of mitigating some of the problems we have representing these entities in services and data when the concept is not formally reocgnised in legislation or policy.
+A Service Delivery Organisation bridges the gap between what is legislatively correct the organisation(s) that deliver official controls or other schemes. It has been created for the purpose of mitigating some of the problems we have representing these entities in services and data when the concept is not formally reocgnised in legislation or policy.
 
 A Service Delivery Entity delivers the functions, or some of the functions of a scheme on behalf of a Competent Authority.
 
