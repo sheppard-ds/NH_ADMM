@@ -19,12 +19,12 @@ Experimental
 ## Description
 A Service Delivery Area is a conceptual data entity used to express a geographical area that is not associated with an existing Competent Authority or other official geography.
 
-It is most commonly used to show the geographical areas covered by Service Delivery Entities, which frequently carry out the duties of multiple Competent Authorities across the total geographic area that those authorities cover.
+It is most commonly used to show the geographical area covered by Service Delivery Entities, which frequently carry out the duties of multiple Competent Authorities across the total geographic area that those authorities cover.
 
-We also use them to represent the geographical areas covered by FSA service areas, such as Operational clusters or Diary Hygiene Inspection Areas.
+We also use them to represent the geographical areas covered by FSA service areas, such as operational areas and dairy hygiene inspection areas.
 
 ### Related entities
-Service Delivery Areas are associated with a Competent Authority, either directly, or through a Service Delivery Entity. In the case of operational geogrpahies, the competent authority is the FSA.
+Service Delivery Areas are associated with a [Competent Authority](/enterprise-data-models/entities/competent-authority.html), either directly, or through a Service Delivery Entity. In the case of operational geographies, the competent authority is the FSA.
 
 ### Entity diagram
 ![SDA](/enterprise-data-models/entities/diagrams/sda.png)
@@ -33,15 +33,15 @@ Service Delivery Areas are associated with a Competent Authority, either directl
 -   Operational area
 
 ### What it is not
-A Service Delivery Area should not be confused for existing geographical areas which are maintained as part of official geographies. Sufficient research must be done to ensure that the geographical area is not already described elsewhere.
+A Service Delivery Area should not be confused with existing areas maintained as part of official geographies. Sufficient effort must be made to ensure that the geographical area is not already described elsewhere.
 
 ## Properties, identifiers and reference data
 
 ### Key properties
-A Service Delivery Area must have a shapefile or suitable polygon. It must also have a [Service Delivery Entity](/enterprise-data-models/entities/service-delivery-entity.html) or [Competent Authority](/enterprise-data-models/entities/competent-authority.html) associated with it, without these, there is no need for a Service Delivery Area.
+A Service Delivery Area must have a shapefile or suitable polygon. It must also be associated with a [Service Delivery Entity](/enterprise-data-models/entities/service-delivery-entity.html) or [Competent Authority](/enterprise-data-models/entities/competent-authority.html). Without one of these, there is no need for a Service Delivery Area.
 
 ### Contextual properties
-Service Delivery Areas only have contextual properties in FSA implementations when we are describing areas over which the FSA has sole responsibility. This is most common when describing the geogrpahy of our meat hygiene operations. There is a hierarchical relationship between regions, areas and clusters for example that is easiest to express through the Service Delivery Area rather than creating a [Service Delivery Entity](/enterprise-data-models/entities/service-delivery-entity.html) for each one.
+Service Delivery Areas only use contextual properties when we are describing areas over which the FSA has sole responsibility. This is most common when describing the geogrpahy of our operations. For example, there is a hierarchical relationship between regions, areas, and clusters that is easiest to express through contextual properties within the Service Delivery Area rather than creating a [Service Delivery Entity](/enterprise-data-models/entities/service-delivery-entity.html) for each one.
 
 ### Unique identifiers
 The URI of the register entry for the entity is sufficient.
