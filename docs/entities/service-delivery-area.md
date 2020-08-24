@@ -7,7 +7,7 @@ parent: Entities
 categories: entity
 ---
 
-# `Service Delivery Area`
+# Service Delivery Area
 This model was last updated on **21/08/2020**, this is version **0.2**
 
 Experimental
