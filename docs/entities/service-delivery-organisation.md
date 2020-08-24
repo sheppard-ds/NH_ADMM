@@ -19,9 +19,9 @@ Experimental
 ## Description
 A Service Delivery Organisation bridges the gap between what is legislatively correct, and the organisation(s) that deliver official controls or other schemes. It has been created for the purpose of mitigating some of the problems we have representing these entities in services and data when the concept is not formally reocgnised in legislation or policy.
 
-A Service Delivery Entity delivers the functions, or some of the functions of a scheme on behalf of a Competent Authority.
+A Service Delivery Organisation delivers the functions, or some of the functions of a scheme on behalf of a Competent Authority.
 
-A Service Delivery Entity most often appears as a shared service entity, commonly providing services for one or more Local Authorities. It can only discharge the duties assigned to it by the Competent Authorities that create or sponsor it, within the scope of the scheme(s) it is assigned. Most enforcement action must still be carried out by a recognised Competent Authority, but this is determined by the scheme.
+A Service Delivery Organisation most often appears as a shared service Organisation, commonly providing services for one or more Local Authorities. It can only discharge the duties assigned to it by the Competent Authorities that create or sponsor it, within the scope of the scheme(s) it is assigned. Most enforcement action must still be carried out by a recognised Competent Authority, but this is determined by the scheme.
 
 ### Related entities
 Service Delivery Entities must be associated with at least one [Competent Authority](/enterprise-data-models/entities/competent-authority.html), but often two or more.
@@ -37,24 +37,24 @@ Service Delivery Entities frequently operate within [Service Delivery Areas](/en
 -   Shared service
 
 ### What it is not
-A Service Delivery Entity is not, and can never be a Competent Authority. The root of a Competent Authority's powers and duties are legislative, and no Service Delivery Entity is recognised in legislation, if it were, it would be a Competent Authority.
+A Service Delivery Organisation is not, and can never be a Competent Authority. The root of a Competent Authority's powers and duties are legislative, and no Service Delivery Organisation is recognised in legislation, if it were, it would be a Competent Authority.
 
 ## Properties, identifiers and reference data
 
 ### Key properties
-A Service Delivery Entity will be handled in the same way as Competent Authorities within the FSA data ecosystem, with a register.
+A Service Delivery Organisation will be handled in the same way as Competent Authorities within the FSA data ecosystem, with a register.
 
 For this reason the majority of properties can be retrieved and cached by services as they are needed, but we would recommend storing the following as a reference table in legacy services and relational databases;
 
--   Name of the entity
--   The code (notation) of the entity
--   The full URI of the entity in the registry
+-   Name of the organisation
+-   The code (notation) of the organisation
+-   The full URI of the organisation in the registry
 
 ### Contextual properties
-Any other property of a Service Delivery Entity which is available from the registry can be used in various contexts. The most common properties will be start and end dates for the existence or powers of the Service Delivery Entity, if they are time limited.
+Any other property of a Service Delivery Organisation which is available from the registry can be used in various contexts. The most common properties will be start and end dates for the existence or powers of the Service Delivery Organisation, if they are time limited.
 
 ### Unique identifiers
-The unique identifier for a Service Delivery Entity is the URI of it's registry entry. Though this can be shortened to the notation property when the preceding part of the URI is treated as a namespace.
+The unique identifier for a Service Delivery Organisation is the URI of it's registry entry. Though this can be shortened to the notation property when the preceding part of the URI is treated as a namespace.
 
 ### Reference data
 A register for this entity is currently in development.
