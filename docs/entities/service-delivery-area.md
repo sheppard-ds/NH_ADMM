@@ -41,7 +41,7 @@ A Service Delivery Area should not be confused for existing geographical areas w
 A Service Delivery Area must have a shapefile or suitable polygon. It must also have a [Service Delivery Entity](/enterprise-data-models/entities/service-delivery-entity.html) or [Competent Authority](/enterprise-data-models/entities/competent-authority.html) associated with it, without these, there is no need for a Service Delivery Area.
 
 ### Contextual properties
-A Service Delivery Area should not require contextual properties, and it is not desirable to have properties for a geogrpahy that are entriely contextual.
+Service Delivery Areas only have contextual properties in FSA implementations when we are describing areas over which the FSA has sole responsibility. This is most common when describing the geogrpahy of our meat hygiene operations. There is a hierarchical relationship between regions, areas and clusters for example that is easiest to express through the Service Delivery Area rather than creating a [Service Delivery Entity](/enterprise-data-models/entities/service-delivery-entity.html) for each one.
 
 ### Unique identifiers
 The URI of the register entry for the entity is sufficient.
