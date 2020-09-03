@@ -9,7 +9,7 @@ categories: pattern
 
 # Address (UK)
 
-This pattern was last updated 30/04/2020, this is version 0.7.
+This pattern was last updated 03/09/2020, this is version 0.8.
 
 Very Experimental
 {: .label .label-yellow }
@@ -29,7 +29,7 @@ As an example, the first time one of the Data Team went to the [Foss House](http
 
 Another effect of resilience to inaccuracy is the in way that people record their address. Do you include the postcode? Should the house name or number be on the same line as the road? What about a block of flats that share a house number? For example;
 
->P Sherman, Flat 1, 42 Wallaby Way, Sydney  
+`P Sherman, Flat 1, 42 Wallaby Way, Sydney`  
 
 Because of this complexity there are three versions of the address pattern;
 
@@ -52,33 +52,33 @@ The display address consists of five lines as follows.  This pattern covers the 
 
 | Line No | Description  | Required | Can be NULL |
 |:--------|:-------------|:---------|:------------|
-| Line 1  | Building and Street | Required | No |
+| Line 1  | `Building and Street` | Required | No |
 | Line 2  |              | Optional | Yes |
-| Line 3  | Town or City | Required | No |
-| Line 4  | County       | Optional | Yes |
-| Line 5  | Postcode     | Required | No |
+| Line 3  | `Town or City` | Required | No |
+| Line 4  | `County`       | Optional | Yes |
+| Line 5  | `Postcode`     | Required | No |
 
 #### Notes
 **Lines 1 and 2** - Street names should not be abbreviated eg Road, Lane, Street, Avenue should not be abbreviated to Rd, Ln, St or Ave.  (use of address matching service would cater for this).
 
 **Line 2** is used if there is additional street or locale information eg
 
->Flat 3  
->15 Sycamore Avenue  
+`Flat 3`  
+`15 Sycamore Avenue`  
 
 or
 
->Heron House  
->345 London Road  
+`Heron House`  
+`345 London Road`  
 
 **Line 3** is used for the town or city (or locale, see example below), regardless of whether Line 2 has been populated.
 In the example below, Lines 1 and 2 have been used for the house name and street, followed by a locale on line 3, with the Town or City on line 4
 
->Red Bank Farm  
->The Shore  
->Bolton Le Sands  
->CARNFORTH  
->LA5 8JR  
+`Red Bank Farm`  
+`The Shore` 
+`Bolton Le Sands`  
+`CARNFORTH`  
+`LA5 8JR`  
 
 **Line 4** - is used for the County, however, it is not actually required for mail delivery but is commonly included as part of the address.  Gov.uk shows line 4 as County in their [address pattern](https://design-system.service.gov.uk/patterns/addresses/).
 
@@ -131,6 +131,8 @@ CREATE TABLE IF NOT EXISTS simple
 
 ### Extended Format
 The extended pattern for an address is the complete list of fields used within the AddressBase delivery point address dataset. A full list can be found in the [AddressBase technical specification.](https://www.ordnancesurvey.co.uk/documents/addressbase-technical-specification.pdf) The field list starts on page 11 and continues to page 17.
+
+Most geo-coding services source data from Ordnance Survey master data, therefore data fields should be equivalent across services.
 
 #### SQL
 This SQL will generate the extended pattern, it has been written for Postgres so conversion may be necessary for other databases.
