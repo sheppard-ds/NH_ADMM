@@ -37,10 +37,10 @@ Not all address or geospatial data refers to premises.
 ## Properties, identifiers and reference data
 
 ### Key Properties
-`Address` is a complex but key pattern for this entity. Please read the pattern carefully as different stages of development may call for different implementations of the address pattern.
+[Address](enterprise-data-models/patterns/address-uk.html) is a complex but key pattern for this entity. Please read the pattern carefully as different stages of development may call for different implementations of the address pattern.
 
 ### Contextual Properties
-There may be scenarios where recording the premises reference number from another competent authorities' data is desirable. We should be very careful about doing this and designs which include this data expect robust challenge. It is always preferable to use a more universal identifier, such a UPRN.
+There may be scenarios where recording the premises reference number from another competent authorities' data is desirable. We should be very careful about doing this and designs which include this data should expect robust challenge. It is always preferable to use a more universal identifier, such a UPRN.
 
 ### Unique Identifiers
 There are a number of identifiers for premises, including the postal address. The preferred unique identifier for premises in the FSA is the [Unique Property Reference Number](https://www.ordnancesurvey.co.uk/business-government/tools-support/uprn).
