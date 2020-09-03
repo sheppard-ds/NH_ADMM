@@ -8,10 +8,10 @@ categories: entity
 ---
 
 # Premises
-This model was last updated on **21/02/2020**, this is version **0.3**
+This model was last updated on **21/02/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Model created
 13/01/2020
