@@ -27,7 +27,7 @@ We also use them to represent the geographical areas covered by FSA service area
 Service Delivery Areas are associated with a [Competent Authority](/enterprise-data-models/entities/competent-authority.html), either directly, or through a [Service Delivery Organisation](/enterprise-data-models/entities/service-delivery-organisation.html). In the case of operational geographies, the competent authority is the FSA.
 
 ### Entity diagram
-![ServiceDeliveryArea](/enterprise-data-models/entities/diagrams/ServiceDeliveryArea.png)
+![ServiceDeliveryArea](/enterprise-data-models/entities/diagrams/ServiceDeliveryArea.PNG)
 
 ### Synonyms
 -   Operational area
