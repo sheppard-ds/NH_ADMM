@@ -8,10 +8,10 @@ categories: entity
 ---
 # Competent Authority
 
-This entity was last updated on **22/05/2020**. This is version **0.4**
+This entity was last updated on **04/09/2020**. This is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Model created
 09/01/2020
@@ -52,11 +52,3 @@ The unique identifier for a competent authority is the URI of the registry entry
 
 ### Reference data
 *   [Competent Authority register](https://data.food.gov.uk/codes/reference-number/_authority)
-
-## External sources and further reading
-This section is under construction
-
-[](**DN - Consider ref to - 'The use of Competent Authority Identifiers in FSA datasets' document**)
-
-[](Further reading may include links to policy or legislative documentation that was used as the basis for defining the model.
-consider ref to CA doc)
