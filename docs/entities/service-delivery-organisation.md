@@ -31,7 +31,7 @@ Service Delivery Entities undertake a range of [interventions](/enterprise-data-
 Service Delivery Entities frequently operate within [Service Delivery Areas](/enterprise-data-models/entities/service-delivery-area.html) which cover one or more geographic areas associated with Competent Authorities, parts of those areas, or another custom geographic area.
 
 ### Entity diagram
-![SDP](/enterprise-data-models/entities/diagrams/SDP.png)
+![SDP](/enterprise-data-models/entities/diagrams/ServiceDeliveryOrganisation.png)
 
 ### Synonyms
 -   Shared service
