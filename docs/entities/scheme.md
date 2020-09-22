@@ -9,7 +9,7 @@ categories: entity
 
 # Scheme
 
-This model was last updated on **26/02/2020**, this is version **0.3**
+This model was last updated on **26/02/2020**, this is version **0.4**
 
 Experimental
 {: .label .label-yellow }
@@ -29,7 +29,7 @@ An [establishment](/enterprise-data-models/entities/establishment.html) is enrol
 
 An establishment can be enrolled in multiple schemes.
 
-Schemes are owned, managed, or carried out by [Competent Authorities](/enterprise-data-models/entities/competent-authority.html). For example FHRS is owned by the FSA but carried out by Local Authorities.
+Schemes are owned, and or carried out by [Competent Authorities](/enterprise-data-models/entities/competent-authority.html). For example, FHRS is owned by the FSA but carried out by Local Authorities.
 
 ### Entity diagram
 ![scheme](/enterprise-data-models/entities/diagrams/Scheme.png)
@@ -68,4 +68,3 @@ A link to the first version of the scheme register will be updated once the regi
 ## External references and further reading
 *   [Regulation (EC) 853/2004](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2004:139:0055:0205:EN:PDF) known as the Approved Establishments Scheme
 *   The [Food Hygiene Ratings Scheme](https://www.food.gov.uk/safety-hygiene/food-hygiene-rating-scheme)
-*   The [Raw Cow's Drinking Milk](https://www.food.gov.uk/business-guidance/raw-cows-drinking-milk) policy

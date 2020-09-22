@@ -54,10 +54,10 @@ An intervention is not an [enforcement](/enterprise-data-models/entities/enforce
 *   The URI of the registry entry for the intervention action
 *   Name of the intervention
 
-## Contextual Property
+## Contextual Properties
 When applying Intervention actions it is important to record the following;
 
-The name of the [establishment](/enterprise-data-models/entities/establishment.html) the intervention was applied to. This will help build up a picture of how the establishment is performing and help schedule future interventions and possibly impact on possible enforcements.
+Recording the identifier of the entity that the intervention is applied to. This will help build up a picture of how that Entity is performing and help schedule future interventions and possibly impact on possible enforcements.
 
 Recording the reason for the intervention along with the [Competent Authority](/enterprise-data-models/entities/competent-authority.html) that carried out the intervention will help build a wider picture, identify trends, and allow Competent Authorities to focus on areas for further interventions, or build a case for [enforcement](/enterprise-data-models/entities/enforcement.html) action.
 
@@ -65,7 +65,7 @@ The name of the [Competent Authority](/enterprise-data-models/entities/competent
 
 It is important that the [`start-date`](/enterprise-data-models/patterns/date-and-time.html#start-date) of the enforcement is recorded as it can determine [`end date`](/enterprise-data-models/patterns/date-and-time.html#end-date) of an enforcement action. It can also help identify cases of production during a period of time when the business shouldn't have been operating, and by having start and end dates of enforcement actions makes the task of identifying produce processed within these dates easier.
 
-A history of interventions and enforcements occurring within an [establishment](/enterprise-data-models/entities/establishment.html) will help build a picture and could impact on the severity of future enforcements by looking at the establishment's history and looking for trends.
+A history of interventions and enforcements occurring within an Entity will help build a picture and could impact on the severity of future enforcements by looking at the entities history and looking for trends.
 
 ### Unique Identifiers
 Where possible, lists of interactions should be modelled as registers within the scope of a scheme and a code list created. The unique identifier should be the URI of the registry entry.

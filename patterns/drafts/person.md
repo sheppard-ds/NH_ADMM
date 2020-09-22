@@ -4,35 +4,54 @@ title: Person
 nav_order: 5
 has_children: false
 parent: Patterns
-categories: pattern
+categories: entity
 ---
 
-# Plant Approval Number
+# Person
 
-This pattern was last updated **22/04/2020**, this is version **0.1**
+This pattern was last updated **22/09/2020**, this is version **0.1**
 
-Stable
-{: .label .label-green }
-
-### Pattern created
-
-22/04/2020
+Experimental
+{: .label .label-yellow }
 
 ## Description
-The Plant Approval Number is allocated to a registered Food Business Operator (FBO) once meat activities have been approved.  The Plant Approval Number is used to record activities and interventions associated with the FBO eg the Plant Approval Number is used to record inspection outcomes.
+The person entity is an individual that interacts in one way or another in the Food and or Feed chain.
 
-## Field formats, data types, and patterns
-There are different formats of Plant Approval Number depending on the Approver eg FSA or Local Authority.
+### Related entities
+The list of related entities will be expanded upon as related entities are documented.
 
-### FSA approved
-FSA approval for Slaughterhouses and Cutting Plants using the following formats
--   4 digit numeric number in the format NNNN, or
--   9 digit reference consisting of two groups of 4 digit numbers separated by a hyphen in the format NNNN-NNNN.  This format is used for FBOs situated within a market, where the 1st part will refer to the market and the 2nd part will refer to the individual FBO.
+[Operator](/enterprise-data-models/entities/operator.html)
 
-### Local Authority approved
-Local Authorities as Competent Authorities approve Cold Stores, Meat Processing Plants, Meat Producers etc using the following format
--   Two digit alpha characters, followed by a space and 3 numeric digits in the format AA NNN
+### Entity diagram
+NA
 
+### Synonyms
+*   Employee
+*   Contractor
+*   Customer
+*   Inspector
+*   Auditor
+*   Member of the Public
 
-## Notes
-Analysis of the Approved food Establishments dataset at January 2020 has highlighted that there are a number of different formats in use, particularly in respect of Local Authority approved establishments, the longest of which is 12 characters long.
+### What it is not
+Person entity should not be used to identify a group of people, nor should it be used to describe a thing.
+
+## Key properties
+The key properties are the entities include
+
+*   First Name
+*   Last Name
+*   Email address
+
+## Contextual properties
+A person can wear many different hats within any industry, for example a Food Hygiene Officer can be an employee of a Competent Authority, they could be contracted out to assist another organisation and have a contractor number, they could be the inspector to a local takeaway, and the Auditor to a food processing company, they are a customer/consumers to grocery store, they may even be a producer and run a small farm.  A person is recorded by many different organisations in many different ways.
+
+## Unique identifiers
+The unique identifier for Person will vary depending on the role the Person is fulfilling at any stage of their interaction with the Food and Feed industry. It is the responsibility of the organisation recording the Person details to decide what that should be.  For example;
+
+*   An employee could have their staff number as a unique identifier
+*   A customer may have their email address used as a unique identifier
+*   A contractor may have contractor id used as a unique identifier
+
+## Reference data
+NA
