@@ -47,7 +47,6 @@ An activity is not an action which forms part of the regulatory environment that
 ## Key properties
 As we develop services around domains with recognised activities, they will be modelled as registers within the scope of a scheme and a code list created. In these instances it is important to use the code of the activity in your implementation.
 
-For best practice handling of code lists in services, please see our `code list pattern`. (coming soon)
 
 ## Contextual properties
 When implementing the activity entity in a service, you will need to record the time period during which the activity is effective for against the establishment it is associated with.
