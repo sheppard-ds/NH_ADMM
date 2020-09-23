@@ -3,7 +3,7 @@ layout: default
 title: Person
 nav_order: 6
 has_children: false
-parent: Entity
+parent: Entities
 categories: entity
 ---
 
