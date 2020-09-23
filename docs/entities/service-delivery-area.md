@@ -8,7 +8,7 @@ categories: entity
 ---
 
 # Service Delivery Area
-This model was last updated on **03/09/2020**, this is version **0.3**
+This model was last updated on **03/09/2020**, this is version **1.0**
 
 stable
 {: .label .label-green }
@@ -48,4 +48,3 @@ The URI of the register entry for the entity is sufficient.
 
 ### Reference data
 Service Delivery Areas can frequently be the union of two or more existing geographical areas. When this is the case please link to them.
-
