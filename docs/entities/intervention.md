@@ -8,10 +8,10 @@ categories: entity
 ---
 # Intervention
 
-This model was last updated on **25/02/2020**, this is version **0.2**
+This model was last updated on **23/09/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Model created
 10/02/2020
@@ -33,7 +33,7 @@ As types of intervention are frequently common across schemes, i.e., an inspecti
 ### Related entities
 Interventions form part of a [scheme](/enterprise-data-models/entities/scheme.html).
 
-An intervention happens to an [establishment](/enterprise-data-models/entities/establishment.html), [premises](/enterprise-data-models/entities/premises.html), [operator](/enterprise-data-models/entities/operator.html) or a `person` depending on the specific intervention action.
+An intervention happens to an [establishment](/enterprise-data-models/entities/establishment.html), [premises](/enterprise-data-models/entities/premises.html), [operator](/enterprise-data-models/entities/operator.html) or a [person](/enterprise-data-models/entities/person.html) depending on the specific intervention action.
 
 ### Entity diagram
 ![intervention](/enterprise-data-models/entities/diagrams/Intervention.png)

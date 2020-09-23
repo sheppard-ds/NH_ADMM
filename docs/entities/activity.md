@@ -8,10 +8,10 @@ categories: entity
 ---
 
 # Activity
-This model was last updated on **20/02/2020**, this is version **0.3**
+This model was last updated on **23/09/2020**, this is version **1.0**
 
-Experimental
-{: .label .label-yellow }
+Stable
+{: .label .label-green }
 
 ### Model created
 07/01/2020
@@ -29,7 +29,7 @@ All activities belong to a [scheme](/enterprise-data-models/entities/scheme.html
 
 Activities should be joined to an [establishment](/enterprise-data-models/entities/establishment.html), not the [premises](/enterprise-data-models/entities/premises.html).
 
-An [establishment](/enterprise-data-models/entities/establishment.html) which undertakes activities does so under a [scheme](/enterprise-data-models/entities/scheme.html) which grants them approval to do them or registers them as doing them. The combination of [establishment](/enterprise-data-models/entities/establishment.html) and [scheme](/enterprise-data-models/entities/scheme.html) is known as an `enrolment`.
+An [establishment](/enterprise-data-models/entities/establishment.html) which undertakes activities does so under a [scheme](/enterprise-data-models/entities/scheme.html) which grants them approval to do them or registers them as doing them. The combination of [establishment](/enterprise-data-models/entities/establishment.html) and [scheme](/enterprise-data-models/entities/scheme.html) is known as an [enrolment](/enterprise-data-models/entities/enrolment.html).
 
 ### Entity diagram
 ![activity](/enterprise-data-models/entities/diagrams/Activity.png)

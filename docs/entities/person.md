@@ -37,7 +37,7 @@ NA
 Person entity should not be used to identify a group of people, nor should it be used to describe a thing.
 
 ## Key properties
-The key properties are the entities include
+The key properties are the entities include;
 
 *   First Name
 *   Last Name
