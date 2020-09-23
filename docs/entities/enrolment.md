@@ -3,6 +3,8 @@ layout: default
 title: Enrolment
 nav_order: 4
 has_children: false
+parent: Entities
+categories: entity
 ---
 
 This model was last updated on **16/09/2020**, this is version **1.0**
