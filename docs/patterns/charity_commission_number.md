@@ -28,8 +28,9 @@ In the FSA, it is mostly used as a property of [operator](/enterprise-data-model
 
 The pattern for storing Charity Commission Numbers in our services is to use an 8 character alphanumeric string.
 
-From the Charity Commission Register for England and Wales, registration numbers are 7 numerical digits, rising to 8 numerical digits for more recent registrations. For Charity Commission Northern Ireland the registration numbers are 6 numerical digits. Eg `00000000` or `000000`.  Whilst these appear to be numerical, there is the possibility that the Northern Ireland numbers could have a suffix in the format `-0` to indicate that the charity is a sub charity, therefore the 8 digit alphanumeric string will also accommodate this.
+From the Charity Commission Register for England and Wales, registration numbers are 7 numerical digits, rising to 8 numerical digits for more recent registrations. For Charity Commission Northern Ireland the registration numbers are 6 numerical digits eg `00000000` or `000000`.  Whilst these appear to be numerical, there is the possibility that the Northern Ireland numbers could have a suffix in the format `-0` to indicate that the charity is a sub charity, therefore the 8 digit alphanumeric string will also accommodate this.
 
 ### References
-[Charity Commission for England and Wales](https://www.gov.uk/government/organisations/charity-commission).
-[Charity Commission Northern Ireland](https://www.charitycommissionni.org.uk/)
+
+- [Charity Commission for England and Wales](https://www.gov.uk/government/organisations/charity-commission)
+- [Charity Commission Northern Ireland](https://www.charitycommissionni.org.uk/)
