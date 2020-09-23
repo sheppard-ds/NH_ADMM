@@ -32,7 +32,7 @@ An establishment can be enrolled in multiple schemes.
 Schemes are owned, and or carried out by [Competent Authorities](/enterprise-data-models/entities/competent-authority.html). For example, FHRS is owned by the FSA but carried out by Local Authorities.
 
 ### Entity diagram
-![Scheme](/enterprise-data-models/entities/diagrams/scheme.png)
+![scheme](/enterprise-data-models/entities/diagrams/scheme.png)
 
 ### Synonyms
 *   Policy
