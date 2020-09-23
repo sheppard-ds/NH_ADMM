@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enrolment
-nav_order: xx
+nav_order: 4
 has_children: false
 ---
 
