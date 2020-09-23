@@ -29,7 +29,7 @@ Enrolment in new schemes does not necessarily impact on existing schemes you are
 The preferred unique identifier for Enrolment in the FSA is the enrolment reference number
 
 ### Entity diagram
-![enrolement](/enterprise-data-models/entities/diagrams/Enrolement.png)
+![enrolment](/enterprise-data-models/entities/diagrams/enrolement.png)
 
 
 ### What it is not
