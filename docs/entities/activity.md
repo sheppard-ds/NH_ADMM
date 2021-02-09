@@ -61,6 +61,11 @@ Where there is not a code list, please get in touch with the data team to model 
 ## Reference data
 Current activity lists are modelled in the Unified Activity List, which is used in Unified View.
 
+[Approved Food Activities](https://data.food.gov.uk/codes/business/approved-food-establishments/_activities)
+[Feed Activities](https://data.food.gov.uk/codes/business/animal-feed-establishments/_feed-activities)
+[Category-Activity Mapping](https://data.food.gov.uk/codes/business/approved-food-establishments/_category-activity)
+[Species](https://data.food.gov.uk/codes/business/approved-food-establishments/_species)
+
 ## Further Information
 It is important to recognise that, ownership and administration of activities can span different competent authorities, this is most common with approved establishments. The majority of activities are approved by Local Authorities acting as the Competent Authority, but the most significant activities (slaughter house, cutting plant and cold store) require approval from the FSA.
 
