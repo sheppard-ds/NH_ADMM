@@ -19,9 +19,11 @@ Experimental
 ## Description
 In the UK, official feed and food tests are carried out from [samples](samples.html) taken by certified professionals and processed at [approved laboratories](laboratory.html) using a method/technique that may be outlined in the appropriate legislation or [scheme](/enterprise-data-models/entities/scheme.html).  The test result provides information on a specific food risk in a specific commodity.  
 
+There are also some tests carried out by other competent authorities such as DEFRA and DEARA.  These are done on live animals or crops, or within the harvest area i.e. soil or water before harvest, and can also determine if a commodity can enter the food or feed market.
+
 Residual risk
 
-Residual risk is the remaining risk after your control measures are in place. There will always be some level of residual risk, but it should be as low as reasonably possible.  It is not possible to eliminate all the risks.  Some risks will remain at a certain level, and this is what residual risks are.  In instances like this there is a recommended Minimum Residual Level (MRL).  And as long as the test results fall within the MRL then the risk being tested for in the commodity are deemed safe for consumption.  Please note, not all areas have a legal limit, so would be product dependent.
+Residual risk is the remaining risk after your control measures are in place. It is not possible to eliminate all the risks.  There will always be some level of residual risk, but it should be as low as reasonably possible.    Some risks will remain at a certain level, and this is what residual risks are.  In instances like this there is a recommended Minimum Residual Level (MRL).  As long as the test results fall within the MRL then the risk being tested for in the commodity are deemed safe to enter the food/feed chain.  Please note, not all areas have a legal limit, therefore is product dependent.
 
 Testing for official controls will meet appropriate standards (Accreditation and validated).
 
@@ -56,7 +58,7 @@ Examples of informal tests (or link to a register)
 ### What it is not
 Not all tests are used for testing of food safety interventions or investigations.  Some businesses will initiate their own testing regime for various reasons that could include quality control.
 
-There are also some tests carried out by other competent authorities such as DEFRA and DEARA.
+
 
 ## Properties, identifiers and reference data
 
