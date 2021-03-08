@@ -38,6 +38,7 @@ Schemes are owned, and or carried out by [Competent Authorities](/enterprise-dat
 *   Policy
 *   Domain
 *   Area
+*   Survey
 
 ### What it is not
 A scheme is not a single piece of legislation or policy, it only becomes a scheme when there are activities, interventions or enforcements within the scope of the scheme.

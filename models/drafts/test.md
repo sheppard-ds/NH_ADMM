@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Tests
+title: Test
 nav_order:
 has_children: false
 parent: Entities
 categories: entity
 ---
 
-# Premises
+# Test
 This model was last updated on **01/02/2021**, this is version **0.1**
 
 Experimental
