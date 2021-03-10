@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sample
-nav_order:
+nav_order: 8
 has_children: false
 parent: Entities
 categories: entity

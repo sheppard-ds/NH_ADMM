@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Service Delivery Organisation
-nav_order: 10
+nav_order: 11
 has_children: false
 parent: Entities
 categories: entity
