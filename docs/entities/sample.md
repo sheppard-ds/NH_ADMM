@@ -68,9 +68,8 @@ There a no unique identifiers which are consistent across all samples, schemes, 
 *   Commodity codes for import
 *   Existing legacy food classification taxonomies, like [this example](https://data.food.gov.uk/codes/enforcement-monitoring/sampling/_classifications).
 
-It should be noted that products taken as samples can often be classified entirely using free-text fields.
+It should be noted that products taken as samples can often be classified solely with free-text.
 
 ### Reference data
-
 
 ## External sources and further reading
