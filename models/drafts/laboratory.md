@@ -29,7 +29,6 @@ Official laboratories must employ staff who possess qualifications which are def
 ### Synonyms
 -   Lab
 
-
 ### What it is not
 Not all Laboratories are used for testing of food safety interventions or investigations.
 

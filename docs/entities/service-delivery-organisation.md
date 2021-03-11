@@ -24,11 +24,11 @@ A Service Delivery Organisation delivers the functions, or some of the functions
 A Service Delivery Organisation most often appears as a shared service Organisation, commonly providing services for one or more Local Authorities. It can only discharge the duties assigned to it by the Competent Authorities that create or sponsor it, within the scope of the scheme(s) it is assigned. Most enforcement action must still be carried out by a recognised Competent Authority, but this is determined by the scheme.
 
 ### Related entities
-Service Delivery Entities must be associated with at least one [Competent Authority](/enterprise-data-models/entities/competent-authority.html), but often two or more.
+Service Delivery Organisations must be associated with at least one [Competent Authority](/enterprise-data-models/entities/competent-authority.html), but often two or more.
 
-Service Delivery Entities undertake a range of [interventions](/enterprise-data-models/entities/intervention.html) on behalf of Competent Authorities, these interventions form part of a [scheme](enterprise-data-models/entities/scheme.html).
+Service Delivery Organisations undertake a range of [interventions](/enterprise-data-models/entities/intervention.html) on behalf of Competent Authorities, these interventions form part of a [scheme](enterprise-data-models/entities/scheme.html).
 
-Service Delivery Entities frequently operate within [Service Delivery Areas](/enterprise-data-models/entities/service-delivery-area.html) which cover one or more geographic areas associated with Competent Authorities, parts of those areas, or another custom geographic area.
+Service Delivery Organisations frequently operate within [Service Delivery Areas](/enterprise-data-models/entities/service-delivery-area.html) which cover one or more geographic areas associated with Competent Authorities, parts of those areas, or another custom geographic area.
 
 ### Entity diagram
 ![SDP](/enterprise-data-models/entities/diagrams/ServiceDeliveryOrganisation.png)

@@ -24,7 +24,7 @@ A sample is commonly taken by an authorised officer or a regulatory support offi
 A sample can often be split into multiple parts to support sampling best practice. It is not uncommon for a sample to be split into three, one part for testing, one part as a control, and one part left with the establishment from which the sample was taken so that they may undertake testing should they wish.
 
 ### Related entities
-A sample is always taken as part of a scheme. In the sampling domain, this is most commonly called a survey. In our data models we re-use the scheme entity as sampling can most often be thought of as an activity associated with a scheme. This is true even when the sample is given to a competent authority voluntarily, as it can be associated with a voluntary sample under the correct scheme.
+A sample is always taken as part of a scheme. In the sampling domain, this is most commonly called a survey. In our data models we re-use the scheme entity as sampling can most often be thought of as an intervention associated with a scheme. This is true even when the sample is given to a competent authority voluntarily, as it can be associated with a voluntary sample under the correct scheme.
 
 A sample is usually (but not always) subjected to a test.
 

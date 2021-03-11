@@ -2,7 +2,7 @@
 layout: default
 title: Scheme
 nav_order: 9
-has_children: false
+has_children: true
 parent: Entities
 categories: entity
 ---
