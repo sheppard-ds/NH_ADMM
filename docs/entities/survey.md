@@ -4,6 +4,7 @@ title: Survey
 nav_order: 2
 has_children: false
 parent: Scheme
+grand_parent: Entities
 categories: entity
 ---
 
