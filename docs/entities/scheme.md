@@ -8,7 +8,6 @@ categories: entity
 ---
 
 # Scheme
-
 This model was last updated on **23/09/2020**, this is version **1.0**
 
 Stable

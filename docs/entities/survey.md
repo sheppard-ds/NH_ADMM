@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Survey
-nav_order: 9
+nav_order: 2
 has_children: false
 parent: Scheme
 categories: entity
 ---
 
 # Survey
-
 This model was last updated on **11/03/2021**, this is version **0.1**
 
 Stable
