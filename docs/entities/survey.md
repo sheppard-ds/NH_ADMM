@@ -10,8 +10,8 @@ categories: entity
 # Survey
 This model was last updated on **11/03/2021**, this is version **0.1**
 
-Stable
-{: .label .label-green }
+Draft
+{: .label .label-red }
 
 ### Model created
 11/03/2021
