@@ -24,7 +24,7 @@ A survey differs from other schemes within our models by virtue of the types of 
 
 Schemes may have [activities](/enterprise-data-models/entities/activity.html), [interventions](/enterprise-data-models/entities/intervention.html), or [enforcements](/enterprise-data-models/entities/enforcement.html) within the scope of their context, but surveys only have interventions. In data terms, the actions associated with sampling are all interventions.
 
-A survey has some specific parameters associated with it which may or may not be inherited from the scheme which is it's parent, and some surveys will not have a parent scheme at all, especially if the basis for sampling is more surveillance based than formal sampling. The parameters of a survey are discussion in the key properties section.
+A survey has some specific parameters associated with it which may or may not be inherited from the scheme which is it's parent, and some surveys will not have a parent scheme at all, especially if the basis for sampling is more surveillance based than formal sampling. The parameters of a survey are covered in the key properties section.
 
 ### Related entities
 A survey has one or more [interventions](/enterprise-data-models/entities/intervention.html) associated with it.
