@@ -3,7 +3,7 @@ layout: default
 title: Laboratory
 nav_order: 2
 has_children: false
-parent: Service-Delivery-Organisation
+parent: Service Delivery Organisation
 grand_parent: Entities
 categories: entity
 ---
