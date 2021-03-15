@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Laboratory
-nav_order:
+nav_order: 2
 has_children: false
-parent: Serivce Delivery Organisation
+parent: Service Delivery Organisation
 grand_parent: Entities
 categories: entity
 ---
 
-# Premises
+# Laboratory
 This model was last updated on **15/03/2020**, this is version **0.1**
 
 Draft
