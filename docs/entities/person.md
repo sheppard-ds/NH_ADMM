@@ -9,8 +9,6 @@ categories: entity
 
 # Person
 
-This pattern was last updated **22/09/2020**, this is version **0.1**
-
 Experimental
 {: .label .label-yellow }
 
