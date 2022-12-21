@@ -16,9 +16,7 @@ Stable
 10/02/2020
 
 ## Description
-Enforcement is the term for the available actions to a [Competent Authority](/enterprise-data-models/entities/competent-authority.html) to make establishments obey food or feed law, regulations, or policy which falls within a [scheme](/enterprise-data-models/entities/scheme.html).
-
-Some examples include making the establishment change the way they operate in order to comply or removing the ability for the establishment to carry out activities until the changes are made.  This can also take the form of litigation, removal of services, suspension of licensing, and fines.
+Dummy description to test editing and commit/push
 
 ### Related entities
 Enforcement is part of a [scheme](/enterprise-data-models/entities/scheme.html). It represents the actions available to the [Competent Authorities](/enterprise-data-models/entities/competent-authority.html) who own or run the scheme. Often, the available enforcement actions under the scope of a scheme will be laid out in the legislation or policy documentation.
